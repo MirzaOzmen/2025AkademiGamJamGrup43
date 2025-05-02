@@ -13,15 +13,14 @@ public class PlayControl : MonoBehaviour
 
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
+        rb = GetComponent<Rigidbody2D>(); //caching
     }
 
     void Update()
     {
-        // Hareket giriþi
         moveInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized;
 
-        // Mouse yönüne dön
+        // Mouse yonune dondurmek icin
         Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         Vector2 lookDir = mousePos - rb.position;
         float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg;
