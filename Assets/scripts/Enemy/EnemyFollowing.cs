@@ -9,11 +9,12 @@ public class EnemyFollowing : MonoBehaviour
     [SerializeField] private float rayDistance = 10f;
     [SerializeField] private LayerMask playerLayer;
     [SerializeField] private Animator animator;
-    [SerializeField] private float dashSpeed = 1f;
+    [SerializeField] private float dashSpeed = 0.001f;
     [SerializeField] private GameObject Prefab;
     [SerializeField] private Rigidbody2D rb;
     private bool canDashAttack = false;
     private Vector3 dashDirection;
+    private bool newmeshbool = true;
     void Start()
     {
         agent.updateRotation = false;
@@ -24,20 +25,12 @@ public class EnemyFollowing : MonoBehaviour
 
     void Update()
     {
-
-        agent.SetDestination(PlayerTarget.transform.position);
-        Vector2 direction = PlayerTarget.transform.position - transform.position;
-        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg - 90f;
-        transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle));
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, transform.up, rayDistance, playerLayer);
-        Debug.DrawRay(transform.position, transform.up * rayDistance, Color.red);
-        Prefab.transform.rotation = Quaternion.identity;
-
+        Debug.Log("newmesh = " + newmeshbool);
         if (PlayerTarget)
         {
             if (PlayerTarget.transform.position.x > transform.position.x)
             {
-               
+
                 Prefab.transform.localScale = new Vector3(-1, 1, 1);
 
             }
@@ -48,26 +41,71 @@ public class EnemyFollowing : MonoBehaviour
 
             }
         }
-        if (hit.collider != null && hit.collider.CompareTag("Player"))
+       
+        if(newmeshbool)
         {
-            Debug.Log("Raycast bir �eye �arpt�: " + hit.collider.name);
-            agent.isStopped = true;
-            animator.SetBool("Walk", false);
-            animator.SetBool("Attack", true);
+           
+            
+            agent.SetDestination(PlayerTarget.transform.position);
+            Vector2 direction = PlayerTarget.transform.position - transform.position;
+            float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg - 90f;
+            transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle));
+            RaycastHit2D hit = Physics2D.Raycast(transform.position, transform.up, rayDistance, playerLayer);
+            Debug.DrawRay(transform.position, transform.up * rayDistance, Color.red);
+            Prefab.transform.rotation = Quaternion.identity;
+            Debug.Log("durum = " + agent.isStopped);
 
+
+            if (hit.collider != null && hit.collider.CompareTag("Player"))
+            {
+                Debug.Log("Raycast bir �eye �arpt�: " + hit.collider.name);
+
+                animator.SetBool("Walk", false);
+                animator.SetBool("Attack", true);
+
+            }
+            else
+            {
+
+                animator.SetBool("Attack", false);
+                animator.SetBool("Walk", true);
+            }
         }
         else
         {
-            agent.isStopped = false;
-            animator.SetBool("Attack", false);
-            animator.SetBool("Walk", true);
+            Vector2 direction = PlayerTarget.transform.position - transform.position;
+            float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg - 90f;
+            transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle));
+            RaycastHit2D hit = Physics2D.Raycast(transform.position, transform.up, rayDistance, playerLayer);
+            Debug.DrawRay(transform.position, transform.up * rayDistance, Color.red);
+            Prefab.transform.rotation = Quaternion.identity;
+            Prefab.transform.rotation = Quaternion.identity;
+            if (hit.collider != null && hit.collider.CompareTag("Player"))
+            {
+                Debug.Log("Raycast bir �eye �arpt�: " + hit.collider.name);
+
+                animator.SetBool("Walk", false);
+                animator.SetBool("Attack", true);
+
+            }
+            else
+            {
+
+                animator.SetBool("Attack", false);
+                animator.SetBool("Walk", true);
+            }
         }
+            
+
+        
+      
 
 
     }
    public IEnumerator DashAttack()
     {
         yield return new WaitForSeconds(1);
+       
         animator.SetTrigger("DashFinished");
     }
     public void canDash()
@@ -76,20 +114,39 @@ public class EnemyFollowing : MonoBehaviour
         dashDirection = (PlayerTarget.transform.position - transform.position).normalized;
         if (canDashAttack)
         {
-            canDashAttack = false;
-            rb.linearVelocity = dashDirection * dashSpeed;  // Rigidbody'yi kullanarak hareket ettir
            
+            
+            Vector2 dashDir = ((Vector2)(PlayerTarget.transform.position - transform.position)).normalized;
+            rb.AddForce(dashDir * dashSpeed, ForceMode2D.Impulse);
+
+
 
         }
-        
+
     }
     public void waitForDash()
     {
         rb.linearVelocity = Vector2.zero;
         animator.SetTrigger("DashFinished");
+
+        agent.isStopped = false;
+        agent.Warp(transform.position); 
+        newmeshbool = true;
+        Debug.Log("newmesh = " + newmeshbool);
         StartCoroutine(DashAttack());
     }
+    public void stoped()
+    {
+        newmeshbool = false;
+        agent.Stop(true);
+    }
+    public void stoepdFalse()
+    {
+        rb.linearVelocity = Vector2.zero; 
 
+        newmeshbool = true;
+        agent.Stop(false);
+    }
 }
 
 

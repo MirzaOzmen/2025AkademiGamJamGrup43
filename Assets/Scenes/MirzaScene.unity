@@ -581,9 +581,11 @@ GameObject:
   - component: {fileID: 1218276399}
   - component: {fileID: 1218276397}
   - component: {fileID: 1218276403}
+  - component: {fileID: 1218276405}
+  - component: {fileID: 1218276404}
   m_Layer: 0
   m_Name: RangedEnemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -636,7 +638,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 3
 --- !u!58 &1218276400
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -737,7 +739,7 @@ Transform:
   m_GameObject: {fileID: 1218276396}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -3.85, y: 2.581, z: 0}
+  m_LocalPosition: {x: -3.85, y: -0.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -766,6 +768,34 @@ MonoBehaviour:
   Anim: {fileID: 1626545275}
   Prefab: {fileID: 1626545273}
   sizeOfGun: 0.65
+--- !u!114 &1218276404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1218276396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: beb7d1a0fc6fedb4794eaf8620516088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 10
+  team: 1
+--- !u!114 &1218276405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1218276396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 951bc06e5643ffc4380556cf471f037c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 30
+  team: 1
 --- !u!1 &1280964538
 GameObject:
   m_ObjectHideFlags: 0
@@ -777,6 +807,7 @@ GameObject:
   - component: {fileID: 1280964539}
   - component: {fileID: 1280964541}
   - component: {fileID: 1280964540}
+  - component: {fileID: 1280964542}
   m_Layer: 0
   m_Name: Massacre Sprite Sheet_0
   m_TagString: Untagged
@@ -870,12 +901,25 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.96875, y: 0.84375}
+  m_Size: {x: 2, y: 2}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1280964542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1280964538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc00d22156b32e348b150a237e8b4a1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyfollow: {fileID: 1514069827}
 --- !u!1 &1297889884
 GameObject:
   m_ObjectHideFlags: 0
@@ -1027,13 +1071,15 @@ GameObject:
   - component: {fileID: 1514069827}
   - component: {fileID: 1514069832}
   - component: {fileID: 1514069833}
+  - component: {fileID: 1514069835}
+  - component: {fileID: 1514069834}
   m_Layer: 0
   m_Name: Enemy1
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1514069827
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1052,6 +1098,10 @@ MonoBehaviour:
   playerLayer:
     serializedVersion: 2
     m_Bits: 64
+  animator: {fileID: 1280964540}
+  dashSpeed: 7
+  Prefab: {fileID: 1280964538}
+  rb: {fileID: 1514069828}
 --- !u!50 &1514069828
 Rigidbody2D:
   serializedVersion: 5
@@ -1219,6 +1269,34 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.72878164, y: 1.6657174}
   m_EdgeRadius: 0
+--- !u!114 &1514069834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1514069826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: beb7d1a0fc6fedb4794eaf8620516088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 10
+  team: 1
+--- !u!114 &1514069835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1514069826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 951bc06e5643ffc4380556cf471f037c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 50
+  team: 1
 --- !u!1 &1519731951
 GameObject:
   m_ObjectHideFlags: 0
@@ -1231,6 +1309,9 @@ GameObject:
   - component: {fileID: 1519731952}
   - component: {fileID: 1519731955}
   - component: {fileID: 1519731954}
+  - component: {fileID: 1519731956}
+  - component: {fileID: 1519731958}
+  - component: {fileID: 1519731957}
   m_Layer: 6
   m_Name: Target
   m_TagString: Player
@@ -1381,6 +1462,50 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1519731956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1519731951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ab13c24d2ab0b942b44b7915d8e5d83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 5
+  runSpeed: 8
+  dashForce: 20
+  dashCooldown: 1
+--- !u!114 &1519731957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1519731951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46ea2f152a9390c4ebf36b192b4c7235, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Health: 30
+  team: 0
+--- !u!114 &1519731958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1519731951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: beb7d1a0fc6fedb4794eaf8620516088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 10
+  team: 0
 --- !u!1 &1626545273
 GameObject:
   m_ObjectHideFlags: 0

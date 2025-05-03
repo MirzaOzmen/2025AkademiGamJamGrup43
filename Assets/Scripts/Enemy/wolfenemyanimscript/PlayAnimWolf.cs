@@ -21,4 +21,12 @@ public class PlayAnimWolf : MonoBehaviour
     {
         enemyfollow.waitForDash();
     }
+    public void stoped()
+    {
+        enemyfollow.stoped();
+    }
+    public void stopedFalse()
+    {
+        enemyfollow.stoepdFalse();
+    }
 }

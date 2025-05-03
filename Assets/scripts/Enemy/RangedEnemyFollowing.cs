@@ -62,7 +62,10 @@ public class RangedEnemyFollowing : MonoBehaviour
                 timer = 0;
                 Transform.Instantiate(bullet, Gun.transform.position, Gun.transform.rotation);
             }
-            
+            if (agent.isStopped)
+            {
+                agent.SetDestination(PlayerTarget.transform.position);  
+            }
             agent.isStopped = true;
             
         }
