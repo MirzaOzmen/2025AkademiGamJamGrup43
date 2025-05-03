@@ -1,22 +1,15 @@
 fileFormatVersion: 2
-guid: 593c7c564adcda74fbc675230116db6f
-AssetOrigin:
-  serializedVersion: 1
-  productId: 64944
-  packageName: Galaxia 2D Space Shooter Sprite Pack #1
-  packageVersion: 1.0
-  assetPath: Assets/Galaxia Sprite Pack #1/Effects/BulletBombSpriteSheetPurple.png
-  uploadId: 122224
+guid: a59cd45b16eb82141bfde823b29bd735
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 21300000
+      213: -2769983636777849850
     second: BulletBombSpriteSheetPurple_0
   - first:
-      213: 21300002
+      213: -6589617233442347644
     second: BulletBombSpriteSheetPurple_1
   - first:
-      213: 21300004
+      213: -109391356419297219
     second: BulletBombSpriteSheetPurple_2
   externalObjects: {}
   serializedVersion: 13
@@ -46,12 +39,12 @@ TextureImporter:
   generateCubemap: 6
   cubemapConvolution: 0
   seamlessCubemap: 0
-  textureFormat: -3
-  maxTextureSize: 64
+  textureFormat: 1
+  maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
-    aniso: 16
+    filterMode: 1
+    aniso: 1
     mipBias: 0
     wrapU: 1
     wrapV: 1
@@ -79,16 +72,16 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 1
+  applyGammaDecoding: 0
   swizzle: 50462976
-  cookieLightType: 1
+  cookieLightType: 0
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 64
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -98,10 +91,10 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: Standalone
-    maxTextureSize: 64
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -116,10 +109,10 @@ TextureImporter:
       name: BulletBombSpriteSheetPurple_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 35
-        width: 25
-        height: 25
+        x: 2
+        y: 34
+        width: 27
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +121,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 02305410000000000800000000000000
-      internalID: 21300000
+      spriteID: 60c2630fe8a0f89d0800000000000000
+      internalID: -2769983636777849850
       vertices: []
       indices: 
       edges: []
@@ -138,10 +131,10 @@ TextureImporter:
       name: BulletBombSpriteSheetPurple_1
       rect:
         serializedVersion: 2
-        x: 38
-        y: 38
-        width: 20
-        height: 20
+        x: 37
+        y: 37
+        width: 22
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,8 +143,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 22305410000000000800000000000000
-      internalID: 21300002
+      spriteID: 48560ea1a0afc84a0800000000000000
+      internalID: -6589617233442347644
       vertices: []
       indices: 
       edges: []
@@ -160,10 +153,10 @@ TextureImporter:
       name: BulletBombSpriteSheetPurple_2
       rect:
         serializedVersion: 2
-        x: 7
-        y: 8
-        width: 13
-        height: 13
+        x: 6
+        y: 7
+        width: 15
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,8 +165,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 42305410000000000800000000000000
-      internalID: 21300004
+      spriteID: d303123142d5b7ef0800000000000000
+      internalID: -109391356419297219
       vertices: []
       indices: 
       edges: []
@@ -191,10 +184,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      BulletBombSpriteSheetPurple_0: 21300000
-      BulletBombSpriteSheetPurple_1: 21300002
-      BulletBombSpriteSheetPurple_2: 21300004
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

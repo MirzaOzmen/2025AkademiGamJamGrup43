@@ -1,29 +1,19 @@
 fileFormatVersion: 2
-guid: a75445bb16444f14f96fdf9c734945cc
-AssetOrigin:
-  serializedVersion: 1
-  productId: 165188
-  packageName: Hero Knight - Pixel Art
-  packageVersion: 1.2
-  assetPath: Assets/Hero Knight - Pixel Art/Sprites/BlockFlash.png
-  uploadId: 447637
+guid: 309e62b2175031b46b8d1efe20c5fb13
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 21300000
+      213: -195574771326962147
     second: BlockFlash_0
   - first:
-      213: 21300002
+      213: -1731827078325916022
     second: BlockFlash_1
   - first:
-      213: 21300004
+      213: -9084530548211158805
     second: BlockFlash_2
   - first:
-      213: 21300006
+      213: 904623880848020271
     second: BlockFlash_3
-  - first:
-      213: 21300008
-    second: BlockFlash_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -56,7 +46,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -70,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -85,9 +75,9 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 1
+  applyGammaDecoding: 0
   swizzle: 50462976
-  cookieLightType: 1
+  cookieLightType: 0
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
@@ -101,7 +91,7 @@ TextureImporter:
     overridden: 0
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: Standalone
     maxTextureSize: 2048
@@ -114,7 +104,7 @@ TextureImporter:
     overridden: 0
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -122,20 +112,20 @@ TextureImporter:
       name: BlockFlash_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 50
-        height: 64
+        x: 22
+        y: 29
+        width: 6
+        height: 6
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 5a8e45cbeeec150438855e8051732d67
-      internalID: 21300000
+      spriteID: d16370c18cd294df0800000000000000
+      internalID: -195574771326962147
       vertices: []
       indices: 
       edges: []
@@ -144,20 +134,20 @@ TextureImporter:
       name: BlockFlash_1
       rect:
         serializedVersion: 2
-        x: 50
-        y: 0
-        width: 50
-        height: 64
+        x: 64
+        y: 20
+        width: 22
+        height: 25
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: cafd881ed928a03448fed790675f948a
-      internalID: 21300002
+      spriteID: a8e2bf7a27057f7e0800000000000000
+      internalID: -1731827078325916022
       vertices: []
       indices: 
       edges: []
@@ -166,20 +156,20 @@ TextureImporter:
       name: BlockFlash_2
       rect:
         serializedVersion: 2
-        x: 100
-        y: 0
-        width: 50
-        height: 64
+        x: 111
+        y: 17
+        width: 28
+        height: 33
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: e660ff5bb51687146ab8559df55165e9
-      internalID: 21300004
+      spriteID: be070ba29934de180800000000000000
+      internalID: -9084530548211158805
       vertices: []
       indices: 
       edges: []
@@ -188,42 +178,20 @@ TextureImporter:
       name: BlockFlash_3
       rect:
         serializedVersion: 2
-        x: 150
-        y: 0
-        width: 50
-        height: 64
+        x: 159
+        y: 14
+        width: 85
+        height: 39
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 99c7053281132034f89f9e0d1726e9a4
-      internalID: 21300006
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BlockFlash_4
-      rect:
-        serializedVersion: 2
-        x: 200
-        y: 0
-        width: 50
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 211063e8f5bf9d4418a21d1302a5d06a
-      internalID: 21300008
+      spriteID: f23184170aedd8c00800000000000000
+      internalID: 904623880848020271
       vertices: []
       indices: 
       edges: []
@@ -232,7 +200,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: b509f04e98c68a34d934f3ee5c9bcfad
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -241,12 +209,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      BlockFlash_0: 21300000
-      BlockFlash_1: 21300002
-      BlockFlash_2: 21300004
-      BlockFlash_3: 21300006
-      BlockFlash_4: 21300008
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,14 +1,121 @@
 fileFormatVersion: 2
-guid: c6944f9f15bd0ca4087bcdf033f0e162
-AssetOrigin:
-  serializedVersion: 1
-  productId: 104606
-  packageName: Dynamic Space Background Lite
-  packageVersion: 1.1
-  assetPath: Assets/DinV/Dynamic Space Background/Sprites/Stars-Big_1.png
-  uploadId: 223798
+guid: 92f7f88b64253a544aec1f9dfd4337eb
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 479657342056971658
+    second: Stars-Big_1_0
+  - first:
+      213: -3201725349611994390
+    second: Stars-Big_1_1
+  - first:
+      213: -1265654377851273075
+    second: Stars-Big_1_2
+  - first:
+      213: 2321586894163415336
+    second: Stars-Big_1_3
+  - first:
+      213: -965853179972893902
+    second: Stars-Big_1_4
+  - first:
+      213: 8060555184400005246
+    second: Stars-Big_1_5
+  - first:
+      213: 4991719051315117605
+    second: Stars-Big_1_6
+  - first:
+      213: 6550805579141862029
+    second: Stars-Big_1_7
+  - first:
+      213: -5168556665234069763
+    second: Stars-Big_1_8
+  - first:
+      213: -4568000620533019516
+    second: Stars-Big_1_9
+  - first:
+      213: 2807922119478874699
+    second: Stars-Big_1_10
+  - first:
+      213: -6847157215252701857
+    second: Stars-Big_1_11
+  - first:
+      213: 7429286788243686289
+    second: Stars-Big_1_12
+  - first:
+      213: -5629791462999092406
+    second: Stars-Big_1_13
+  - first:
+      213: -2901638588289975582
+    second: Stars-Big_1_14
+  - first:
+      213: -6001331913121262617
+    second: Stars-Big_1_15
+  - first:
+      213: -2114848839882959666
+    second: Stars-Big_1_16
+  - first:
+      213: 2463903339949710594
+    second: Stars-Big_1_17
+  - first:
+      213: 1601840488936335682
+    second: Stars-Big_1_18
+  - first:
+      213: 496503180304644074
+    second: Stars-Big_1_19
+  - first:
+      213: 140282284637962144
+    second: Stars-Big_1_20
+  - first:
+      213: 2848470819184543248
+    second: Stars-Big_1_21
+  - first:
+      213: -7203346520969666674
+    second: Stars-Big_1_22
+  - first:
+      213: 1978689592237772786
+    second: Stars-Big_1_23
+  - first:
+      213: 3815025987258017196
+    second: Stars-Big_1_24
+  - first:
+      213: 662755723649149318
+    second: Stars-Big_1_25
+  - first:
+      213: 4259844681438503582
+    second: Stars-Big_1_26
+  - first:
+      213: -5431846355681898221
+    second: Stars-Big_1_27
+  - first:
+      213: 3341406349409459621
+    second: Stars-Big_1_28
+  - first:
+      213: 3573479660364138194
+    second: Stars-Big_1_29
+  - first:
+      213: -2563509643347736223
+    second: Stars-Big_1_30
+  - first:
+      213: -8940446210315051441
+    second: Stars-Big_1_31
+  - first:
+      213: -1923169159096570893
+    second: Stars-Big_1_32
+  - first:
+      213: -5300460484041629116
+    second: Stars-Big_1_33
+  - first:
+      213: 7138060431948188931
+    second: Stars-Big_1_34
+  - first:
+      213: 9113844992517758341
+    second: Stars-Big_1_35
+  - first:
+      213: 919411560250431458
+    second: Stars-Big_1_36
+  - first:
+      213: -2186411417261964088
+    second: Stars-Big_1_37
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,11 +153,11 @@ TextureImporter:
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 0
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -70,9 +177,9 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 1
+  applyGammaDecoding: 0
   swizzle: 50462976
-  cookieLightType: 1
+  cookieLightType: 0
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
@@ -86,7 +193,7 @@ TextureImporter:
     overridden: 0
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: Standalone
     maxTextureSize: 2048
@@ -99,41 +206,851 @@ TextureImporter:
     overridden: 0
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
-  - serializedVersion: 4
-    buildTarget: iOS
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
-  - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Stars-Big_1_0
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 1913
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8db63fafc518a600800000000000000
+      internalID: 479657342056971658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stars-Big_1_1
+      rect:
+        serializedVersion: 2
+        x: 1781
+        y: 1928
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae2830c02cf2193d0800000000000000
+      internalID: -3201725349611994390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stars-Big_1_2
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 1876
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d80c1cf8c0e7f6ee0800000000000000
+      internalID: -1265654377851273075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stars-Big_1_3
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 1814
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82110dddafee73020800000000000000
+      internalID: 2321586894163415336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stars-Big_1_4
+      rect:
+        serializedVersion: 2
+        x: 1730
+        y: 1844
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 233c88e66a99892f0800000000000000
+      internalID: -965853179972893902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stars-Big_1_5
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 1801
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e78789acb38dcdf60800000000000000
+      internalID: 8060555184400005246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stars-Big_1_6
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 1802
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52eff28a706264540800000000000000
+      internalID: 4991719051315117605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stars-Big_1_7
+      rect:
+        serializedVersion: 2
+        x: 1798
+        y: 1801
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d82d56177f229ea50800000000000000
+      internalID: 6550805579141862029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stars-Big_1_8
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 1697
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df6ee3fd8199548b0800000000000000
+      internalID: -5168556665234069763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stars-Big_1_9
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1516
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48c8d5f43a33b90c0800000000000000
+      internalID: -4568000620533019516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stars-Big_1_10
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 1468
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4210886a4eb7f620800000000000000
+      internalID: 2807922119478874699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stars-Big_1_11
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 1461
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5d1c9f5ac20af0a0800000000000000
+      internalID: -6847157215252701857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stars-Big_1_12
+      rect:
+        serializedVersion: 2
+        x: 1742
+        y: 1319
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19384cbc8f02a1760800000000000000
+      internalID: 7429286788243686289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stars-Big_1_13
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1203
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4399680e76fed1b0800000000000000
+      internalID: -5629791462999092406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stars-Big_1_14
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 1098
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eaf866d31f4bb7d0800000000000000
+      internalID: -2901638588289975582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stars-Big_1_15
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 1064
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e31133eb6cf6bca0800000000000000
+      internalID: -6001331913121262617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stars-Big_1_16
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 948
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec411216f2c86a2e0800000000000000
+      internalID: -2114848839882959666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stars-Big_1_17
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 966
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20dd99a880b813220800000000000000
+      internalID: 2463903339949710594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stars-Big_1_18
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 933
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24963e11071ea3610800000000000000
+      internalID: 1601840488936335682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stars-Big_1_19
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 894
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae7f8eb030fe3e600800000000000000
+      internalID: 496503180304644074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stars-Big_1_20
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 840
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0af3020aef162f100800000000000000
+      internalID: 140282284637962144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stars-Big_1_21
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 738
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0168f824e1dc78720800000000000000
+      internalID: 2848470819184543248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stars-Big_1_22
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 711
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8f9e8f0182980c90800000000000000
+      internalID: -7203346520969666674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stars-Big_1_23
+      rect:
+        serializedVersion: 2
+        x: 1634
+        y: 720
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ff481a53b7b57b10800000000000000
+      internalID: 1978689592237772786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stars-Big_1_24
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 645
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca5e56b2ce1b1f430800000000000000
+      internalID: 3815025987258017196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stars-Big_1_25
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 437
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 689e6f8b1d4923900800000000000000
+      internalID: 662755723649149318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stars-Big_1_26
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 447
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e92aa7b0b220e1b30800000000000000
+      internalID: 4259844681438503582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stars-Big_1_27
+      rect:
+        serializedVersion: 2
+        x: 1469
+        y: 444
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3119417c4843e94b0800000000000000
+      internalID: -5431846355681898221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stars-Big_1_28
+      rect:
+        serializedVersion: 2
+        x: 1523
+        y: 420
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ad19ca0f5f0f5e20800000000000000
+      internalID: 3341406349409459621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stars-Big_1_29
+      rect:
+        serializedVersion: 2
+        x: 1564
+        y: 452
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d6861861dc879130800000000000000
+      internalID: 3573479660364138194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stars-Big_1_30
+      rect:
+        serializedVersion: 2
+        x: 1691
+        y: 396
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16948f9bf859c6cd0800000000000000
+      internalID: -2563509643347736223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stars-Big_1_31
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 248
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4e1fac4a872de380800000000000000
+      internalID: -8940446210315051441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stars-Big_1_32
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 245
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fbef05d6d78f45e0800000000000000
+      internalID: -1923169159096570893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stars-Big_1_33
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 213
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44224b6d54bf076b0800000000000000
+      internalID: -5300460484041629116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stars-Big_1_34
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 68
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30d0b8fc42c7f0360800000000000000
+      internalID: 7138060431948188931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stars-Big_1_35
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 98
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58d5ef4cbb1ea7e70800000000000000
+      internalID: 9113844992517758341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stars-Big_1_36
+      rect:
+        serializedVersion: 2
+        x: 1841
+        y: 84
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e75d1b51f762cc00800000000000000
+      internalID: 919411560250431458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stars-Big_1_37
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 53
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c40e3d666e48a1e0800000000000000
+      internalID: -2186411417261964088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 

@@ -1,29 +1,13 @@
 fileFormatVersion: 2
-guid: 7fb51a422c4a36e40b71b06331a74b11
-AssetOrigin:
-  serializedVersion: 1
-  productId: 165188
-  packageName: Hero Knight - Pixel Art
-  packageVersion: 1.2
-  assetPath: Assets/Hero Knight - Pixel Art/Sprites/SlideDust.png
-  uploadId: 447637
+guid: 57cd15895d52d024f8bb48d49b38145a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 21300000
+      213: 159466647026967483
     second: SlideDust_0
   - first:
-      213: 21300002
+      213: -6250065222065260069
     second: SlideDust_1
-  - first:
-      213: 21300004
-    second: SlideDust_2
-  - first:
-      213: 21300006
-    second: SlideDust_3
-  - first:
-      213: 21300008
-    second: SlideDust_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -56,7 +40,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -70,7 +54,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -85,9 +69,9 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 1
+  applyGammaDecoding: 0
   swizzle: 50462976
-  cookieLightType: 1
+  cookieLightType: 0
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
@@ -101,7 +85,7 @@ TextureImporter:
     overridden: 0
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: Standalone
     maxTextureSize: 2048
@@ -114,7 +98,7 @@ TextureImporter:
     overridden: 0
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -122,20 +106,20 @@ TextureImporter:
       name: SlideDust_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 25
-        height: 32
-      alignment: 9
-      pivot: {x: 0.56, y: 0.5}
+        x: 10
+        y: 12
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 19156b223e89a7f41a60a2d2a5dd7a23
-      internalID: 21300000
+      spriteID: bb3a091121a863200800000000000000
+      internalID: 159466647026967483
       vertices: []
       indices: 
       edges: []
@@ -144,86 +128,20 @@ TextureImporter:
       name: SlideDust_1
       rect:
         serializedVersion: 2
-        x: 25
-        y: 0
-        width: 25
-        height: 32
-      alignment: 9
-      pivot: {x: 0.56, y: 0.5}
+        x: 57
+        y: 19
+        width: 55
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 69f72c75e59cefb4e89a73602feed4b8
-      internalID: 21300002
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SlideDust_2
-      rect:
-        serializedVersion: 2
-        x: 50
-        y: 0
-        width: 25
-        height: 32
-      alignment: 9
-      pivot: {x: 0.56, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6168eeb00a3a1ba42b81c4b2e9d6b636
-      internalID: 21300004
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SlideDust_3
-      rect:
-        serializedVersion: 2
-        x: 75
-        y: 0
-        width: 25
-        height: 32
-      alignment: 9
-      pivot: {x: 0.56, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 12d95361003b4e3428e01ea2c937de0e
-      internalID: 21300006
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SlideDust_4
-      rect:
-        serializedVersion: 2
-        x: 100
-        y: 0
-        width: 25
-        height: 32
-      alignment: 9
-      pivot: {x: 0.56, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4a925f3c38addc8478737c40b604917b
-      internalID: 21300008
+      spriteID: bd9f6c77bce4349a0800000000000000
+      internalID: -6250065222065260069
       vertices: []
       indices: 
       edges: []
@@ -232,7 +150,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: aa0cc07ba0762344199b10a253ec201e
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -241,12 +159,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      SlideDust_0: 21300000
-      SlideDust_1: 21300002
-      SlideDust_2: 21300004
-      SlideDust_3: 21300006
-      SlideDust_4: 21300008
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,22 +1,15 @@
 fileFormatVersion: 2
-guid: 63497777be1c2a3468333a9fd29c6036
-AssetOrigin:
-  serializedVersion: 1
-  productId: 64944
-  packageName: Galaxia 2D Space Shooter Sprite Pack #1
-  packageVersion: 1.0
-  assetPath: Assets/Galaxia Sprite Pack #1/Effects/BulletsSpriteSheetPurple.png
-  uploadId: 122224
+guid: 0f815bb7477f1e64c99ddb7a99e75380
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 21300000
+      213: -3686330991919901230
     second: BulletsSpriteSheetPurple_0
   - first:
-      213: 21300002
+      213: 2205655506918149149
     second: BulletsSpriteSheetPurple_1
   - first:
-      213: 21300004
+      213: 7911298390092219075
     second: BulletsSpriteSheetPurple_2
   externalObjects: {}
   serializedVersion: 13
@@ -46,12 +39,12 @@ TextureImporter:
   generateCubemap: 6
   cubemapConvolution: 0
   seamlessCubemap: 0
-  textureFormat: -3
-  maxTextureSize: 64
+  textureFormat: 1
+  maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
-    aniso: 16
+    filterMode: 1
+    aniso: 1
     mipBias: 0
     wrapU: 1
     wrapV: 1
@@ -79,16 +72,16 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 1
+  applyGammaDecoding: 0
   swizzle: 50462976
-  cookieLightType: 1
+  cookieLightType: 0
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 64
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -98,10 +91,10 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: Standalone
-    maxTextureSize: 64
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -116,10 +109,10 @@ TextureImporter:
       name: BulletsSpriteSheetPurple_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 5
-        width: 15
-        height: 28
+        x: 4
+        y: 4
+        width: 17
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +121,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 02305410000000000800000000000000
-      internalID: 21300000
+      spriteID: 2d5d91e6e7587dcc0800000000000000
+      internalID: -3686330991919901230
       vertices: []
       indices: 
       edges: []
@@ -138,10 +131,10 @@ TextureImporter:
       name: BulletsSpriteSheetPurple_1
       rect:
         serializedVersion: 2
-        x: 23
-        y: 5
-        width: 16
-        height: 37
+        x: 22
+        y: 4
+        width: 18
+        height: 39
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,8 +143,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 22305410000000000800000000000000
-      internalID: 21300002
+      spriteID: d1c8dba5fff0c9e10800000000000000
+      internalID: 2205655506918149149
       vertices: []
       indices: 
       edges: []
@@ -160,10 +153,10 @@ TextureImporter:
       name: BulletsSpriteSheetPurple_2
       rect:
         serializedVersion: 2
-        x: 41
-        y: 5
-        width: 18
-        height: 55
+        x: 40
+        y: 4
+        width: 20
+        height: 57
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,8 +165,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 42305410000000000800000000000000
-      internalID: 21300004
+      spriteID: 3c2019d48f39acd60800000000000000
+      internalID: 7911298390092219075
       vertices: []
       indices: 
       edges: []
@@ -191,10 +184,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      BulletsSpriteSheetPurple_0: 21300000
-      BulletsSpriteSheetPurple_1: 21300002
-      BulletsSpriteSheetPurple_2: 21300004
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
