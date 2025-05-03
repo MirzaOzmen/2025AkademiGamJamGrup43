@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Massacre4_0: -2580979737825262576
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

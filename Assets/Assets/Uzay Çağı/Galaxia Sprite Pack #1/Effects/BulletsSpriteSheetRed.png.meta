@@ -184,7 +184,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BulletsSpriteSheetRed_0: 279205183037438484
+      BulletsSpriteSheetRed_1: -437789701802164759
+      BulletsSpriteSheetRed_2: 6311111244666304512
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

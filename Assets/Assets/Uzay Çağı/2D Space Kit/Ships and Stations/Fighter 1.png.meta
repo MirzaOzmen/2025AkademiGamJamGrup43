@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Fighter 1_0: 2524478324290406223
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Starflare_0: -2949932034011248794
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

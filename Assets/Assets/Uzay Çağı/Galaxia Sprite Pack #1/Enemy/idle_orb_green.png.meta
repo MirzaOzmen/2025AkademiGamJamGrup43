@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      idle_orb_green_0: -1692171539200303525
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

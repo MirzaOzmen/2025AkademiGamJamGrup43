@@ -384,7 +384,18 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Prefab mountains and clounds_0: -4298293925257689320
+      Prefab mountains and clounds_1: 7639116344357985579
+      Prefab mountains and clounds_10: -6123974120375158590
+      Prefab mountains and clounds_2: 4254131584219962619
+      Prefab mountains and clounds_3: 5848633682499331828
+      Prefab mountains and clounds_4: -5121861640188257292
+      Prefab mountains and clounds_5: 9063132165420137556
+      Prefab mountains and clounds_6: 4656962502705930626
+      Prefab mountains and clounds_7: -8527799944748086196
+      Prefab mountains and clounds_8: 4623597564056004078
+      Prefab mountains and clounds_9: 8527982250685244786
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

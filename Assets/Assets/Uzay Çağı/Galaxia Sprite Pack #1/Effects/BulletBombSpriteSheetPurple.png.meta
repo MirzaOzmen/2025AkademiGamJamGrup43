@@ -184,7 +184,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BulletBombSpriteSheetPurple_0: -2769983636777849850
+      BulletBombSpriteSheetPurple_1: -6589617233442347644
+      BulletBombSpriteSheetPurple_2: -109391356419297219
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      idle_drone_purple_0: -4006753896521054394
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

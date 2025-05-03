@@ -409,7 +409,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      overworld with shadows_0: 2797461084794948235
+      overworld with shadows_1: -3789193656100371395
+      overworld with shadows_10: -7709260131922167812
+      overworld with shadows_11: 6230284613236075239
+      overworld with shadows_2: 4180329508297494995
+      overworld with shadows_3: 5838852361640941900
+      overworld with shadows_4: -2796107776534185071
+      overworld with shadows_5: 9012572518352349037
+      overworld with shadows_6: 6433946578199034572
+      overworld with shadows_7: -8629037580886255981
+      overworld with shadows_8: -164783291796263830
+      overworld with shadows_9: -5070198047359874936
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

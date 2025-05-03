@@ -434,7 +434,20 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      EnvironmentTiles_0: -3664912713421212079
+      EnvironmentTiles_1: 1432828397076365338
+      EnvironmentTiles_10: -106051574222202057
+      EnvironmentTiles_11: 6311334904373257924
+      EnvironmentTiles_12: 7038427745220273038
+      EnvironmentTiles_2: 4302061506145216713
+      EnvironmentTiles_3: 6467657952502602999
+      EnvironmentTiles_4: 315040486241938570
+      EnvironmentTiles_5: -1233313926935017664
+      EnvironmentTiles_6: -3457981675362594510
+      EnvironmentTiles_7: 4893051811563141638
+      EnvironmentTiles_8: -1608140288224960010
+      EnvironmentTiles_9: 837363059107805369
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
