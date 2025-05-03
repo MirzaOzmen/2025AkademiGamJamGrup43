@@ -25,4 +25,9 @@ public class PauseMenu : MonoBehaviour
         Application.Quit();
         Debug.Log("Oyun kapatýldý."); 
     }
+
+    public void ReturnToMenu()
+    {
+        SceneManager.LoadScene("menu");
+    }
 }
