@@ -434,7 +434,20 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      vietnam_war2_0: 1215469850211893429
+      vietnam_war2_1: -4357904045863534417
+      vietnam_war2_10: -5290670962902917904
+      vietnam_war2_11: -780755793246778609
+      vietnam_war2_12: -7145762537701759478
+      vietnam_war2_2: 1706900963743963152
+      vietnam_war2_3: 7273182705573905901
+      vietnam_war2_4: -2941273802217688860
+      vietnam_war2_5: 9080124585290656688
+      vietnam_war2_6: 2162658380731662259
+      vietnam_war2_7: -7815207537738293341
+      vietnam_war2_8: 941407997263992882
+      vietnam_war2_9: -6201524495520653341
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
