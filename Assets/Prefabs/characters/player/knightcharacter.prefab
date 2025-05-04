@@ -296,6 +296,7 @@ GameObject:
   - component: {fileID: 7833915779404101155}
   - component: {fileID: 1441528619356690805}
   - component: {fileID: 1977608388810479993}
+  - component: {fileID: 3467599954092080593}
   m_Layer: 6
   m_Name: knightcharacter
   m_TagString: Player
@@ -476,6 +477,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Health: 30
   team: 0
+  Slider: {fileID: 0}
 --- !u!114 &1977608388810479993
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -499,6 +501,21 @@ MonoBehaviour:
   bullet: {fileID: 2160408072078191908, guid: da3cce2fbc4e12341b7a3533b71bc53d, type: 3}
   attackPeriod: 0
   firingPoint: {fileID: 8063277213605909106}
+--- !u!114 &3467599954092080593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4709812142690144504}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29abe2e276d5a004aa1b55000a897cdf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CharacterParts: {fileID: 579419109013302230}
+  color: {r: 1, g: 0.25, b: 0.25, a: 0.98039216}
+  DamageFlashTime: 0.5
 --- !u!1 &6578686835235008886
 GameObject:
   m_ObjectHideFlags: 0

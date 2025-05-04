@@ -13,7 +13,8 @@ public class EnemyFollowingKnight : MonoBehaviour, knockback
     [SerializeField] private GameObject gun;
     [SerializeField] private GameObject Prefab;
     [SerializeField] private float attackDistance = 1.5f;
-    [SerializeField] private float attackDuration = 0.2f;
+    [SerializeField] private float attackForwardDuration = 0.4f; // Ýleri giderken süre
+    [SerializeField] private float attackReturnDuration = 0.3f;  // Geri dönerken süre
     [SerializeField] private EnemyHealth health;
     [SerializeField] private float degree;
 
@@ -31,7 +32,7 @@ public class EnemyFollowingKnight : MonoBehaviour, knockback
     {
         if (PlayerTarget)
         {
-            // AI karakterin saðýnda ya da solunda olduðunu kontrol et
+            // Karakterin yönünü belirle
             if (PlayerTarget.transform.position.x > transform.position.x)
             {
                 Prefab.transform.localScale = Vector3.one;
@@ -41,7 +42,7 @@ public class EnemyFollowingKnight : MonoBehaviour, knockback
                 Prefab.transform.localScale = new Vector3(-1, 1, 1);
             }
 
-            // Player'a doðru rotasyon hesaplama
+            // Rotasyonu ayarla
             Vector2 direction = PlayerTarget.transform.position - transform.position;
             float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
             transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle));
@@ -73,7 +74,7 @@ public class EnemyFollowingKnight : MonoBehaviour, knockback
                 }
             }
 
-            // Silahýn yönünü doðru ayarla
+            // Silah yönü
             if (PlayerTarget.transform.position.x > transform.position.x)
                 gun.transform.localScale = new Vector3(-1, 1, 1);
             else
@@ -87,43 +88,39 @@ public class EnemyFollowingKnight : MonoBehaviour, knockback
         navmeshEnabled = false;
         agent.isStopped = true;
 
-        // Saldýrý yönünü hesapla
         Vector2 dir = (PlayerTarget.transform.position - transform.position).normalized;
-
-        // Silahýn mevcut pozisyonu
         Vector3 originalLocalPos = gun.transform.localPosition;
-
-        // Dünya koordinatlarýnda saldýrý pozisyonu
         Vector3 attackWorldPos = gun.transform.position + (Vector3)(dir * attackDistance);
 
         float elapsed = 0f;
+        Vector3 startWorldPos = gun.transform.position;
 
-        // Saldýrýyý yapma (ilerleme)
-        while (elapsed < attackDuration)
+        // Ýleri hareket
+        while (elapsed < attackForwardDuration)
         {
-            float t = Mathf.SmoothStep(0, 1, elapsed / attackDuration);
-            gun.transform.position = Vector3.Lerp(gun.transform.position, attackWorldPos, t);
+            float t = Mathf.SmoothStep(0, 1, elapsed / attackForwardDuration);
+            gun.transform.position = Vector3.Lerp(startWorldPos, attackWorldPos, t);
             elapsed += Time.deltaTime;
             yield return null;
         }
-
         gun.transform.position = attackWorldPos;
 
+        // Geri hareket
         elapsed = 0f;
+        Vector3 returnStartPos = gun.transform.position;
+        Vector3 returnEndPos = transform.TransformPoint(originalLocalPos); // orijinal local pozisyonun dünya uzayýndaki karþýlýðý
 
-        // Saldýrý sonrasý geri dönüþ
-        while (elapsed < attackDuration)
+        while (elapsed < attackReturnDuration)
         {
-            float t = Mathf.SmoothStep(0, 1, elapsed / attackDuration);
-            gun.transform.position = Vector3.Lerp(attackWorldPos, gun.transform.position, t);
+            float t = Mathf.SmoothStep(0, 1, elapsed / attackReturnDuration);
+            gun.transform.position = Vector3.Lerp(returnStartPos, returnEndPos, t);
             elapsed += Time.deltaTime;
             yield return null;
         }
 
-        // Silahý orijinal pozisyona geri döndür
         gun.transform.localPosition = originalLocalPos;
 
-        yield return new WaitForSeconds(0.5f); // kýsa bir bekleme süresi
+        yield return new WaitForSeconds(0.5f);
 
         navmeshEnabled = true;
         agent.isStopped = false;
@@ -134,7 +131,6 @@ public class EnemyFollowingKnight : MonoBehaviour, knockback
     {
         Vector2 knockDir = (transform.position - (Vector3)sourcePosition).normalized;
         Vector3 knockback = knockDir * knockbackForce;
-
         StartCoroutine(KnockbackRoutine(knockback));
     }
 
@@ -144,7 +140,7 @@ public class EnemyFollowingKnight : MonoBehaviour, knockback
         {
             agent.isStopped = true;
 
-            float knockTime = 0.1f; // Knockback süresi
+            float knockTime = 0.1f;
             float elapsed = 0f;
             while (elapsed < knockTime)
             {

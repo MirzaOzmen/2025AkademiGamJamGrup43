@@ -36,5 +36,15 @@ public class BulletDamage : MonoBehaviour
                 GameObject.Destroy(gameObject);
 
         }
+        flasheffect flashEffect = collision.transform.GetComponentInParent<flasheffect>();
+        if (collision.gameObject.TryGetComponent<flasheffect>(out flasheffect flash_Effect))
+        {
+            flash_Effect.flashEffect();
+        }
+        else if ((flashEffect != null && collision.gameObject.tag != "Weapon"))
+        {
+            Debug.Log("colidlandi");
+            flashEffect.flashEffect();
+        }
     }
 }

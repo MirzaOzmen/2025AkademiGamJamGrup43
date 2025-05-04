@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 3922157523858625127}
   - component: {fileID: 8046604228366498145}
   - component: {fileID: 8336522789759506549}
+  - component: {fileID: 8931147595731784228}
   m_Layer: 0
   m_Name: KnightEnemy
   m_TagString: Enemy
@@ -241,9 +242,25 @@ MonoBehaviour:
   gun: {fileID: 2804221251138541734}
   Prefab: {fileID: 5526440803900727207}
   attackDistance: 1.5
-  attackDuration: 0.2
+  attackForwardDuration: 0.4
+  attackReturnDuration: 0.3
   health: {fileID: 3922157523858625127}
   degree: 150
+--- !u!114 &8931147595731784228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 63406762183192241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29abe2e276d5a004aa1b55000a897cdf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CharacterParts: {fileID: 4392840169198057410}
+  color: {r: 1, g: 0.2509804, b: 0.2509804, a: 0.98039216}
+  DamageFlashTime: 0.3
 --- !u!1 &2804221251138541734
 GameObject:
   m_ObjectHideFlags: 0

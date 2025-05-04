@@ -246,6 +246,7 @@ GameObject:
   - component: {fileID: 2591911406927157771}
   - component: {fileID: 9114277684926849881}
   - component: {fileID: 3729285586352057418}
+  - component: {fileID: 5587694959832377002}
   m_Layer: 0
   m_Name: RangedEnemy
   m_TagString: Enemy
@@ -460,3 +461,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 10
   team: 1
+--- !u!114 &5587694959832377002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8258794623080402697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29abe2e276d5a004aa1b55000a897cdf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CharacterParts: {fileID: 7926382869498762160}
+  color: {r: 1, g: 0.2509804, b: 0.2509804, a: 0.98039216}
+  DamageFlashTime: 0.3

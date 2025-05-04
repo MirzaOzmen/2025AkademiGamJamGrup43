@@ -20,7 +20,7 @@ public class DamageEnemy : MonoBehaviour
                 IDamageable.ChangeHealthOfTheCharacter(DamageAmount * -1);
             if (collision.TryGetComponent<knockback>(out knockback enemy))
             {
-                enemy.ApplyKnockback(transform.position, 2f); // 2f = itme gücü
+                enemy.ApplyKnockback(transform.position, 2f); 
             }
 
         }
@@ -29,7 +29,7 @@ public class DamageEnemy : MonoBehaviour
             IDamageable.ChangeHealthOfTheCharacter(DamageAmount * -1);
             if (collision.TryGetComponent<knockback>(out knockback enemy))
             {
-                enemy.ApplyKnockback(transform.position, 2f); // 2f = itme gücü
+                enemy.ApplyKnockback(transform.position, 2f); 
             }
 
 
@@ -43,6 +43,16 @@ public class DamageEnemy : MonoBehaviour
             }*/
 
 
+        }
+        flasheffect flashEffect = collision.transform.GetComponentInParent<flasheffect>();
+        if (collision.gameObject.TryGetComponent<flasheffect>(out flasheffect flash_Effect))
+        {
+            flash_Effect.flashEffect();
+        }
+        else if ((flashEffect != null && collision.gameObject.tag == "Enemy"))
+        {
+            Debug.Log("colidlandi");
+            flashEffect.flashEffect();
         }
 
 

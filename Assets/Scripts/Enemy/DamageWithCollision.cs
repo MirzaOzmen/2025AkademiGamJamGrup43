@@ -34,5 +34,15 @@ public class DamageWithCollision : MonoBehaviour
             Debug.Log("colidlandi");
             damageble.ChangeHealthOfTheCharacter(-1 * damage);
         }
+        flasheffect flashEffect = collision.transform.GetComponentInParent<flasheffect>();
+        if (collision.gameObject.TryGetComponent<flasheffect>(out flasheffect flash_Effect))
+        {
+            flash_Effect.flashEffect();
+        }
+        else if ((flashEffect != null && collision.gameObject.tag == "Player"))
+        {
+            Debug.Log("colidlandi");
+            flashEffect.flashEffect();
+        }
     }
 }

@@ -43,6 +43,7 @@ public class playercontrolSoldier : MonoBehaviour
         if (isDashing) return;
 
         moveInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized;
+
         if (Input.GetKeyDown(KeyCode.Space) && canDash && moveInput != Vector2.zero)
         {
             StartCoroutine(Dash());

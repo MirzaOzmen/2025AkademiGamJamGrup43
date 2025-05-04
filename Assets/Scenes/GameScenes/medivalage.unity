@@ -14588,6 +14588,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: 8336522789759506549, guid: d2e16b084b728764d9a170f45cfc2db8, type: 3}
+      propertyPath: attackDistance
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20452,6 +20456,14 @@ PrefabInstance:
       propertyPath: Slider
       value: 
       objectReference: {fileID: 907936304}
+    - target: {fileID: 1977608388810479993, guid: b64975a768e6e0d4ea979ec80835aa69, type: 3}
+      propertyPath: attackDistance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1977608388810479993, guid: b64975a768e6e0d4ea979ec80835aa69, type: 3}
+      propertyPath: attackDuration
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 2724762240347953658, guid: b64975a768e6e0d4ea979ec80835aa69, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.16
@@ -20498,6 +20510,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4709812142690144504, guid: b64975a768e6e0d4ea979ec80835aa69, type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474594509043063012, guid: b64975a768e6e0d4ea979ec80835aa69, type: 3}
+      propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []

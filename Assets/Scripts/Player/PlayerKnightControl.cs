@@ -37,6 +37,10 @@ public class PlayerKnightControl : MonoBehaviour
 
         moveInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized;
         anim.SetBool("walk", moveInput != Vector2.zero);
+        if (Input.GetKeyDown(KeyCode.Space) && canDash && moveInput != Vector2.zero)
+        {
+            StartCoroutine(Dash());
+        }
 
         // Mouse konumuna bak
         Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -47,10 +51,12 @@ public class PlayerKnightControl : MonoBehaviour
         if (mousePos.x > transform.position.x)
         {
             transform.localScale = new Vector3(1, 1, 1);
+            gun.transform.localScale = new Vector3(-1, 1, 1);
         }
         else
         {
             transform.localScale = new Vector3(-1, 1, 1);
+            gun.transform.localScale = new Vector3(1, -1, 1);
         }
 
         
