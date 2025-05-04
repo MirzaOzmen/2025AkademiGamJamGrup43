@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spear_20_0: -1909156934456459860
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
