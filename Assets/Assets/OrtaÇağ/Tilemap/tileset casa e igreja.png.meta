@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: e15b57b477bd5ec47a1707ba8d2de6fb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -91425907440397897
+    second: tileset casa e igreja_0
+  - first:
+      213: -4911197667879017265
+    second: tileset casa e igreja_1
+  - first:
+      213: 6561599850475807434
+    second: tileset casa e igreja_2
+  - first:
+      213: 6089599988650800598
+    second: tileset casa e igreja_3
+  - first:
+      213: 4483729699234114872
+    second: tileset casa e igreja_4
+  - first:
+      213: 3095912280143213414
+    second: tileset casa e igreja_5
+  - first:
+      213: 8501771562574766029
+    second: tileset casa e igreja_6
+  - first:
+      213: 4046090951778866027
+    second: tileset casa e igreja_7
+  - first:
+      213: -7308191922114728484
+    second: tileset casa e igreja_8
+  - first:
+      213: 7387142166986261144
+    second: tileset casa e igreja_9
+  - first:
+      213: -3817084362214363810
+    second: tileset casa e igreja_10
+  - first:
+      213: -7546003605807230706
+    second: tileset casa e igreja_11
+  - first:
+      213: 4841432151966007164
+    second: tileset casa e igreja_12
+  - first:
+      213: -5313856550999075907
+    second: tileset casa e igreja_13
+  - first:
+      213: 6224429507844287015
+    second: tileset casa e igreja_14
+  - first:
+      213: -2975366603016933334
+    second: tileset casa e igreja_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tileset casa e igreja_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 271
+        width: 241
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b15fbf1f903bbef0800000000000000
+      internalID: -91425907440397897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset casa e igreja_1
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 324
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc42850edbbe7dbb0800000000000000
+      internalID: -4911197667879017265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset casa e igreja_2
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 240
+        width: 44
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac2edd59c4c7f0b50800000000000000
+      internalID: 6561599850475807434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset casa e igreja_3
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 240
+        width: 21
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d5f0c3fcea928450800000000000000
+      internalID: 6089599988650800598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset casa e igreja_4
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 240
+        width: 21
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83de7b7d768693e30800000000000000
+      internalID: 4483729699234114872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset casa e igreja_5
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 240
+        width: 44
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 663b4b1e0d3e6fa20800000000000000
+      internalID: 3095912280143213414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset casa e igreja_6
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 240
+        width: 21
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcf59cc113c5cf570800000000000000
+      internalID: 8501771562574766029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset casa e igreja_7
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 240
+        width: 21
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6393b5984a962830800000000000000
+      internalID: 4046090951778866027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset casa e igreja_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 63
+        width: 113
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdde8f3da26149a90800000000000000
+      internalID: -7308191922114728484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset casa e igreja_9
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 188
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 892868089a6648660800000000000000
+      internalID: 7387142166986261144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset casa e igreja_10
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 188
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5da3801ffdf60bc0800000000000000
+      internalID: -3817084362214363810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset casa e igreja_11
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 188
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e011b0273b5374790800000000000000
+      internalID: -7546003605807230706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset casa e igreja_12
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 137
+        width: 58
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7fb61624e8303340800000000000000
+      internalID: 4841432151966007164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset casa e igreja_13
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 143
+        width: 50
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db35152fe936146b0800000000000000
+      internalID: -5313856550999075907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset casa e igreja_14
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 79
+        width: 54
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72aa480b8ad916650800000000000000
+      internalID: 6224429507844287015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset casa e igreja_15
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 66
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a207d96b6df55b6d0800000000000000
+      internalID: -2975366603016933334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      tileset casa e igreja_0: -91425907440397897
+      tileset casa e igreja_1: -4911197667879017265
+      tileset casa e igreja_10: -3817084362214363810
+      tileset casa e igreja_11: -7546003605807230706
+      tileset casa e igreja_12: 4841432151966007164
+      tileset casa e igreja_13: -5313856550999075907
+      tileset casa e igreja_14: 6224429507844287015
+      tileset casa e igreja_15: -2975366603016933334
+      tileset casa e igreja_2: 6561599850475807434
+      tileset casa e igreja_3: 6089599988650800598
+      tileset casa e igreja_4: 4483729699234114872
+      tileset casa e igreja_5: 3095912280143213414
+      tileset casa e igreja_6: 8501771562574766029
+      tileset casa e igreja_7: 4046090951778866027
+      tileset casa e igreja_8: -7308191922114728484
+      tileset casa e igreja_9: 7387142166986261144
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

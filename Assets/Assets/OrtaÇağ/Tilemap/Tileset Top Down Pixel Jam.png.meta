@@ -1,0 +1,1391 @@
+fileFormatVersion: 2
+guid: 1c57a29234fe52f438163c1a1255d2ec
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8095008193507948011
+    second: Tileset Top Down Pixel Jam_0
+  - first:
+      213: 7605006213185305047
+    second: Tileset Top Down Pixel Jam_1
+  - first:
+      213: 7893023107451204319
+    second: Tileset Top Down Pixel Jam_2
+  - first:
+      213: -4897089286827921166
+    second: Tileset Top Down Pixel Jam_3
+  - first:
+      213: -2652149294479266843
+    second: Tileset Top Down Pixel Jam_4
+  - first:
+      213: -6789599515644953773
+    second: Tileset Top Down Pixel Jam_5
+  - first:
+      213: 8477644799112223085
+    second: Tileset Top Down Pixel Jam_6
+  - first:
+      213: 986348821143562436
+    second: Tileset Top Down Pixel Jam_7
+  - first:
+      213: 2468131964907792838
+    second: Tileset Top Down Pixel Jam_8
+  - first:
+      213: 7875535598669742529
+    second: Tileset Top Down Pixel Jam_9
+  - first:
+      213: 1742331949288244996
+    second: Tileset Top Down Pixel Jam_10
+  - first:
+      213: 6584947714621000067
+    second: Tileset Top Down Pixel Jam_11
+  - first:
+      213: 6153237001876540156
+    second: Tileset Top Down Pixel Jam_12
+  - first:
+      213: -781385250569806123
+    second: Tileset Top Down Pixel Jam_13
+  - first:
+      213: 4089268850877414002
+    second: Tileset Top Down Pixel Jam_14
+  - first:
+      213: -1414494969703670418
+    second: Tileset Top Down Pixel Jam_15
+  - first:
+      213: -1571321216283552475
+    second: Tileset Top Down Pixel Jam_16
+  - first:
+      213: -2581361714915990822
+    second: Tileset Top Down Pixel Jam_17
+  - first:
+      213: 2467977041356761891
+    second: Tileset Top Down Pixel Jam_18
+  - first:
+      213: -7609415041794220615
+    second: Tileset Top Down Pixel Jam_19
+  - first:
+      213: -5430376279438497551
+    second: Tileset Top Down Pixel Jam_20
+  - first:
+      213: 5272908262132305649
+    second: Tileset Top Down Pixel Jam_21
+  - first:
+      213: -2793669815637312939
+    second: Tileset Top Down Pixel Jam_22
+  - first:
+      213: -9158375911342631415
+    second: Tileset Top Down Pixel Jam_23
+  - first:
+      213: -567080052898748813
+    second: Tileset Top Down Pixel Jam_24
+  - first:
+      213: 9037544096286847761
+    second: Tileset Top Down Pixel Jam_25
+  - first:
+      213: 5716499026488939037
+    second: Tileset Top Down Pixel Jam_26
+  - first:
+      213: -1471622719806909045
+    second: Tileset Top Down Pixel Jam_27
+  - first:
+      213: -2751713698340538570
+    second: Tileset Top Down Pixel Jam_28
+  - first:
+      213: 5220957061000565922
+    second: Tileset Top Down Pixel Jam_29
+  - first:
+      213: -3559512345465834119
+    second: Tileset Top Down Pixel Jam_30
+  - first:
+      213: -2824903434915962339
+    second: Tileset Top Down Pixel Jam_31
+  - first:
+      213: -8169560492720184747
+    second: Tileset Top Down Pixel Jam_32
+  - first:
+      213: 2496952952137673885
+    second: Tileset Top Down Pixel Jam_33
+  - first:
+      213: -8760685946744067830
+    second: Tileset Top Down Pixel Jam_34
+  - first:
+      213: -3103005428749706102
+    second: Tileset Top Down Pixel Jam_35
+  - first:
+      213: -5779520397402840124
+    second: Tileset Top Down Pixel Jam_36
+  - first:
+      213: -554019783994631780
+    second: Tileset Top Down Pixel Jam_37
+  - first:
+      213: -3142939512200333493
+    second: Tileset Top Down Pixel Jam_38
+  - first:
+      213: -2585746401696895283
+    second: Tileset Top Down Pixel Jam_39
+  - first:
+      213: 6617460189081377137
+    second: Tileset Top Down Pixel Jam_40
+  - first:
+      213: 2349285631592184614
+    second: Tileset Top Down Pixel Jam_41
+  - first:
+      213: -3411829336296018628
+    second: Tileset Top Down Pixel Jam_42
+  - first:
+      213: 9165802717979372764
+    second: Tileset Top Down Pixel Jam_43
+  - first:
+      213: 2983850998310783206
+    second: Tileset Top Down Pixel Jam_44
+  - first:
+      213: 4446140756190536328
+    second: Tileset Top Down Pixel Jam_45
+  - first:
+      213: 7692498837756736011
+    second: Tileset Top Down Pixel Jam_46
+  - first:
+      213: 7968716663095014210
+    second: Tileset Top Down Pixel Jam_47
+  - first:
+      213: -4592099747488702823
+    second: Tileset Top Down Pixel Jam_48
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tileset Top Down Pixel Jam_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 386
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51a051cefe0c8af80800000000000000
+      internalID: -8095008193507948011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Top Down Pixel Jam_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 384
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d97c8b9bd86a8960800000000000000
+      internalID: 7605006213185305047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Top Down Pixel Jam_2
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 399
+        width: 210
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd2349b72b6a98d60800000000000000
+      internalID: 7893023107451204319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Top Down Pixel Jam_3
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 311
+        width: 64
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f030415d3b0a0cb0800000000000000
+      internalID: -4897089286827921166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Top Down Pixel Jam_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 207
+        width: 129
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eba243b44ca13bd0800000000000000
+      internalID: -2652149294479266843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Top Down Pixel Jam_5
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 304
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35b71de963f76c1a0800000000000000
+      internalID: -6789599515644953773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Top Down Pixel Jam_6
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 335
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d69950f3705a6a570800000000000000
+      internalID: 8477644799112223085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Top Down Pixel Jam_7
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 327
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c823e4e60730bd00800000000000000
+      internalID: 986348821143562436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Top Down Pixel Jam_8
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 303
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c9ad1302f0904220800000000000000
+      internalID: 2468131964907792838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Top Down Pixel Jam_9
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 304
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c147ae86e58b4d60800000000000000
+      internalID: 7875535598669742529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Top Down Pixel Jam_10
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 335
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 407c3263da10e2810800000000000000
+      internalID: 1742331949288244996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Top Down Pixel Jam_11
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 327
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3894182de0f626b50800000000000000
+      internalID: 6584947714621000067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Top Down Pixel Jam_12
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 303
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfa04a3b370b46550800000000000000
+      internalID: 6153237001876540156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Top Down Pixel Jam_13
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 304
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5de9e0b2146f725f0800000000000000
+      internalID: -781385250569806123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Top Down Pixel Jam_14
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 335
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27a3e9f9a5000c830800000000000000
+      internalID: 4089268850877414002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Top Down Pixel Jam_15
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 327
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6d5c32c154be5ce0800000000000000
+      internalID: -1414494969703670418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Top Down Pixel Jam_16
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 303
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5255263ddab813ae0800000000000000
+      internalID: -1571321216283552475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Top Down Pixel Jam_17
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 319
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad2a3a962392d2cd0800000000000000
+      internalID: -2581361714915990822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Top Down Pixel Jam_18
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 306
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32ba3ef0b04004220800000000000000
+      internalID: 2467977041356761891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Top Down Pixel Jam_19
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 306
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bd575df55de56690800000000000000
+      internalID: -7609415041794220615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Top Down Pixel Jam_20
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 244
+        width: 44
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f86c539b8d63a4b0800000000000000
+      internalID: -5430376279438497551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Top Down Pixel Jam_21
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 290
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fe4e9990222d2940800000000000000
+      internalID: 5272908262132305649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Top Down Pixel Jam_22
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 290
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55af43baa14ea39d0800000000000000
+      internalID: -2793669815637312939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Top Down Pixel Jam_23
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 290
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9069decb1a9e6e080800000000000000
+      internalID: -9158375911342631415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Top Down Pixel Jam_24
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 290
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 376a2c742b35128f0800000000000000
+      internalID: -567080052898748813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Top Down Pixel Jam_25
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 290
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1133b1df87ecb6d70800000000000000
+      internalID: 9037544096286847761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Top Down Pixel Jam_26
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 290
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d125db8c395155f40800000000000000
+      internalID: 5716499026488939037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Top Down Pixel Jam_27
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 215
+        width: 53
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b85d38eeeeeb39be0800000000000000
+      internalID: -1471622719806909045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Top Down Pixel Jam_28
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 210
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 637f5d678f2ffc9d0800000000000000
+      internalID: -2751713698340538570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Top Down Pixel Jam_29
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 210
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a4918009c0947840800000000000000
+      internalID: 5220957061000565922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Top Down Pixel Jam_30
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 215
+        width: 53
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97534e281621a9ec0800000000000000
+      internalID: -3559512345465834119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Top Down Pixel Jam_31
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 210
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d12ad0dfa4debc8d0800000000000000
+      internalID: -2824903434915962339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Top Down Pixel Jam_32
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 210
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 552295c1404ef9e80800000000000000
+      internalID: -8169560492720184747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Top Down Pixel Jam_33
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 215
+        width: 53
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9c67050b75f6a220800000000000000
+      internalID: 2496952952137673885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Top Down Pixel Jam_34
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 210
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a09209b2c8acb6680800000000000000
+      internalID: -8760685946744067830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Top Down Pixel Jam_35
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 210
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8cd343c009efe4d0800000000000000
+      internalID: -3103005428749706102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Top Down Pixel Jam_36
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 215
+        width: 53
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c3edacd1d40bcfa0800000000000000
+      internalID: -5779520397402840124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Top Down Pixel Jam_37
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 210
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c99167811f9bf48f0800000000000000
+      internalID: -554019783994631780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Top Down Pixel Jam_38
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 210
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4772c86a290264d0800000000000000
+      internalID: -3142939512200333493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Top Down Pixel Jam_39
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 159
+        width: 48
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dceac97f8559d1cd0800000000000000
+      internalID: -2585746401696895283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Top Down Pixel Jam_40
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 128
+        width: 53
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1791c7d2bf0f5db50800000000000000
+      internalID: 6617460189081377137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Top Down Pixel Jam_41
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 128
+        width: 53
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62b3bfab5d65a9020800000000000000
+      internalID: 2349285631592184614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Top Down Pixel Jam_42
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 128
+        width: 53
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3da1d79b4fb6a0d0800000000000000
+      internalID: -3411829336296018628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Top Down Pixel Jam_43
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 120
+        width: 53
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdc687e6209733f70800000000000000
+      internalID: 9165802717979372764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Top Down Pixel Jam_44
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 111
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e842018ca4c86920800000000000000
+      internalID: 2983850998310783206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Top Down Pixel Jam_45
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 48
+        width: 52
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 882af1a067dd3bd30800000000000000
+      internalID: 4446140756190536328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Top Down Pixel Jam_46
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 48
+        width: 52
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b027893bfee31ca60800000000000000
+      internalID: 7692498837756736011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Top Down Pixel Jam_47
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 48
+        width: 52
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 243b383c591969e60800000000000000
+      internalID: 7968716663095014210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Top Down Pixel Jam_48
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 24
+        width: 42
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99e56c11c959540c0800000000000000
+      internalID: -4592099747488702823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Tileset Top Down Pixel Jam_0: -8095008193507948011
+      Tileset Top Down Pixel Jam_1: 7605006213185305047
+      Tileset Top Down Pixel Jam_10: 1742331949288244996
+      Tileset Top Down Pixel Jam_11: 6584947714621000067
+      Tileset Top Down Pixel Jam_12: 6153237001876540156
+      Tileset Top Down Pixel Jam_13: -781385250569806123
+      Tileset Top Down Pixel Jam_14: 4089268850877414002
+      Tileset Top Down Pixel Jam_15: -1414494969703670418
+      Tileset Top Down Pixel Jam_16: -1571321216283552475
+      Tileset Top Down Pixel Jam_17: -2581361714915990822
+      Tileset Top Down Pixel Jam_18: 2467977041356761891
+      Tileset Top Down Pixel Jam_19: -7609415041794220615
+      Tileset Top Down Pixel Jam_2: 7893023107451204319
+      Tileset Top Down Pixel Jam_20: -5430376279438497551
+      Tileset Top Down Pixel Jam_21: 5272908262132305649
+      Tileset Top Down Pixel Jam_22: -2793669815637312939
+      Tileset Top Down Pixel Jam_23: -9158375911342631415
+      Tileset Top Down Pixel Jam_24: -567080052898748813
+      Tileset Top Down Pixel Jam_25: 9037544096286847761
+      Tileset Top Down Pixel Jam_26: 5716499026488939037
+      Tileset Top Down Pixel Jam_27: -1471622719806909045
+      Tileset Top Down Pixel Jam_28: -2751713698340538570
+      Tileset Top Down Pixel Jam_29: 5220957061000565922
+      Tileset Top Down Pixel Jam_3: -4897089286827921166
+      Tileset Top Down Pixel Jam_30: -3559512345465834119
+      Tileset Top Down Pixel Jam_31: -2824903434915962339
+      Tileset Top Down Pixel Jam_32: -8169560492720184747
+      Tileset Top Down Pixel Jam_33: 2496952952137673885
+      Tileset Top Down Pixel Jam_34: -8760685946744067830
+      Tileset Top Down Pixel Jam_35: -3103005428749706102
+      Tileset Top Down Pixel Jam_36: -5779520397402840124
+      Tileset Top Down Pixel Jam_37: -554019783994631780
+      Tileset Top Down Pixel Jam_38: -3142939512200333493
+      Tileset Top Down Pixel Jam_39: -2585746401696895283
+      Tileset Top Down Pixel Jam_4: -2652149294479266843
+      Tileset Top Down Pixel Jam_40: 6617460189081377137
+      Tileset Top Down Pixel Jam_41: 2349285631592184614
+      Tileset Top Down Pixel Jam_42: -3411829336296018628
+      Tileset Top Down Pixel Jam_43: 9165802717979372764
+      Tileset Top Down Pixel Jam_44: 2983850998310783206
+      Tileset Top Down Pixel Jam_45: 4446140756190536328
+      Tileset Top Down Pixel Jam_46: 7692498837756736011
+      Tileset Top Down Pixel Jam_47: 7968716663095014210
+      Tileset Top Down Pixel Jam_48: -4592099747488702823
+      Tileset Top Down Pixel Jam_5: -6789599515644953773
+      Tileset Top Down Pixel Jam_6: 8477644799112223085
+      Tileset Top Down Pixel Jam_7: 986348821143562436
+      Tileset Top Down Pixel Jam_8: 2468131964907792838
+      Tileset Top Down Pixel Jam_9: 7875535598669742529
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
