@@ -4,7 +4,7 @@ using System.Collections;
 
 public class EnemyFollowing : MonoBehaviour,knockback
 {
-    [SerializeField] private GameObject PlayerTarget;
+    private GameObject PlayerTarget;
     [SerializeField] private NavMeshAgent agent;
     [SerializeField] private float rayDistance = 10f;
     [SerializeField] private LayerMask playerLayer;
@@ -18,6 +18,7 @@ public class EnemyFollowing : MonoBehaviour,knockback
     private bool newmeshbool = true;
     void Start()
     {
+        PlayerTarget = GameObject.FindGameObjectWithTag("Player");
         agent.updateRotation = false;
         agent.updateUpAxis = false;
 
@@ -59,7 +60,7 @@ public class EnemyFollowing : MonoBehaviour,knockback
 
             if (hit.collider != null && hit.collider.CompareTag("Player"))
             {
-                Debug.Log("Raycast bir �eye �arpt�: " + hit.collider.name);
+                Debug.Log("Raycast bir seye carpti: " + hit.collider.name);
 
                 animator.SetBool("Walk", false);
                 animator.SetBool("Attack", true);

@@ -25,9 +25,7 @@ public class PlayControl : MonoBehaviour
     [SerializeField] private float attackPeriod;
     
     [SerializeField] private Transform firingPoint;
-    [SerializeField] private float x;
-    [SerializeField] private float y;
-    [SerializeField] private float z;
+    
     private float timer = 0;
     void Start()
     {

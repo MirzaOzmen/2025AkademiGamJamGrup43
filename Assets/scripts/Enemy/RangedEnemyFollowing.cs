@@ -20,6 +20,7 @@ public class RangedEnemyFollowing : MonoBehaviour, knockback
     private float timer = 0 ;
     void Start()
     {
+        PlayerTarget = GameObject.FindGameObjectWithTag("Player");
         agent.updateRotation = false;
         agent.updateUpAxis = false;
     }

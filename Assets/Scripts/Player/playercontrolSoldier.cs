@@ -108,24 +108,22 @@ public class playercontrolSoldier : MonoBehaviour
                 gun.localPosition = new Vector3(-lookDir.normalized.x, lookDir.normalized.y, 0) * 0.5f;
         }
 
-      
-            timer += Time.deltaTime;
-            if (timer > attackPeriod)
-            {
-                timer = 0;
 
-
-            canAttack = true;
-
-
-
-            }
-        if (Input.GetMouseButtonDown(0)&& canAttack)
+        if (Input.GetMouseButton(0)) // basýlý tutuluyorsa
         {
-            StartCoroutine(spawnbullet());
-            canAttack = false;
-        }
+            timer += Time.deltaTime;
 
+            if (timer >= attackPeriod)
+            {
+                timer = 0f;
+                StartCoroutine(spawnbullet());
+            }
+        }
+        else
+        {
+            // buton býrakýlýrsa zamanlayýcýyý sýfýrla (isteðe baðlý)
+            timer = attackPeriod; // istersen burada 0f da yapabilirsin
+        }
 
     }
 

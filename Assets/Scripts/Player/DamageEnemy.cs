@@ -34,6 +34,16 @@ public class DamageEnemy : MonoBehaviour
 
 
         }
+        else if (damagebleparent != null && collision.gameObject.tag == "Player")
+        {
+            IDamageable.ChangeHealthOfTheCharacter(DamageAmount * -1);
+          /*  if (collision.TryGetComponent<knockback>(out knockback enemy))
+            {
+                enemy.ApplyKnockback(transform.position, 2f); // 2f = itme gücü
+            }*/
+
+
+        }
 
 
     }
