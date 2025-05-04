@@ -1,8 +1,9 @@
 using UnityEngine;
 using UnityEngine.AI;
+using System.Collections;
 
 
-public class RangedEnemyFollowing : MonoBehaviour
+public class RangedEnemyFollowing : MonoBehaviour, knockback
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     [SerializeField] private GameObject PlayerTarget;
@@ -15,6 +16,7 @@ public class RangedEnemyFollowing : MonoBehaviour
     [SerializeField] private Animator Anim;
     [SerializeField] private GameObject Prefab;
     [SerializeField] private float sizeOfGun;
+    [SerializeField] private EnemyHealth health;
     private float timer = 0 ;
     void Start()
     {
@@ -73,5 +75,32 @@ public class RangedEnemyFollowing : MonoBehaviour
      
 
     }
-    
+    public void ApplyKnockback(Vector2 sourcePosition, float knockbackForce)
+    {
+        Vector2 knockDir = (transform.position - (Vector3)sourcePosition).normalized;
+        Vector3 knockback = knockDir * knockbackForce;
+
+        StartCoroutine(KnockbackRoutine(knockback));
+    }
+
+    public IEnumerator KnockbackRoutine(Vector3 knockback)
+    {
+        if(health.health>0)
+        {
+            agent.isStopped = true;
+
+            float knockTime = 0.1f; 
+            float elapsed = 0f;
+            while (elapsed < knockTime)
+            {
+                transform.position += knockback * Time.deltaTime;
+                elapsed += Time.deltaTime;
+                yield return null;
+            }
+
+            agent.isStopped = false;
+        }
+      
+    }
+
 }

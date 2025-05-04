@@ -724,7 +724,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!50 &1546507273
 Rigidbody2D:
   serializedVersion: 5
@@ -768,6 +768,12 @@ MonoBehaviour:
   runSpeed: 8
   dashForce: 10
   dashCooldown: 1
+  gunPosX: 0
+  gunPosY: 0
+  gunPosZ: 0
+  gun: {fileID: 0}
+  attackDuration: 0.01
+  attackDistance: 1.2
 --- !u!212 &1546507275
 SpriteRenderer:
   m_ObjectHideFlags: 0

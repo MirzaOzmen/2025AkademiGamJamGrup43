@@ -22,7 +22,7 @@ public class BulletDamage : MonoBehaviour
                 Destroy(gameObject);
             }
         }
-        else if (damagebleparent != null)
+        else if (damagebleparent != null&&collision.gameObject.tag !="Weapon")
         {
             if (team != IDamageable.Team)
             {

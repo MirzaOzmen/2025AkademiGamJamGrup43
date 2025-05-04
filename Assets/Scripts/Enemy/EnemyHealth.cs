@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class EnemyHealth : MonoBehaviour , Idamegeable
 {
-    [SerializeField] private int health;
+    public int health;
 
     [SerializeField] private Teams team;
     public Teams Team => team;

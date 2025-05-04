@@ -13,15 +13,19 @@ public class PlayControl : MonoBehaviour
     private bool canDash = true;
     private bool isDashing = false;
 
-    [SerializeField] private float gunPosX;
-    [SerializeField] private float gunPosY;
-    [SerializeField] private float gunPosZ;
+    
     [SerializeField] private Transform gun;
+    [SerializeField] private Animator anim;
 
     private bool isAttacking = false;
     [SerializeField] private float attackDuration = 0.01f;
     [SerializeField] private float attackDistance = 1.2f;
+    [SerializeField] private GameObject bullet;
 
+    [SerializeField] private float attackPeriod;
+    
+    [SerializeField] private Transform firingPoint;
+    private float timer = 0;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>(); // caching
@@ -32,7 +36,14 @@ public class PlayControl : MonoBehaviour
         if (isDashing) return;
 
         moveInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized;
-
+        if(moveInput.x == 0 && moveInput.y ==0)
+        {
+            anim.SetBool("walk", false);
+        }
+        else
+        {
+            anim.SetBool("walk", true);
+        }
         // Mouse konumuna bak
         Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         Vector2 lookDir = mousePos - (Vector2)transform.position;
@@ -51,6 +62,37 @@ public class PlayControl : MonoBehaviour
         if (Input.GetMouseButtonDown(0) && !isAttacking)
         {
             StartCoroutine(SpearAttack());
+        }
+        if (mousePos.x > transform.position.x)
+        {
+
+
+           transform.localScale = Vector3.one;
+           
+            firingPoint.localScale = new Vector3(1, 1, 1);
+            firingPoint.localRotation = Quaternion.Euler(0, 0, -90);
+        
+        }
+        else
+        {
+            transform.localScale = new Vector3(-1, 1, 1);
+          
+            firingPoint.localScale = new Vector3(1, -1, 1);
+            firingPoint.localRotation = Quaternion.Euler(0, 0, 90);
+         
+
+        }
+        if(Input.GetMouseButtonDown(0))
+        {
+            timer += Time.deltaTime;
+            if (timer > attackPeriod)
+            {
+                timer = 0;
+                Vector2 mouseDir = (Camera.main.ScreenToWorldPoint(Input.mousePosition) - firingPoint.position).normalized;
+
+                GameObject newBullet = Instantiate(bullet, firingPoint.position, Quaternion.identity);
+                newBullet.GetComponent<PlayerBullet>().SetDirection(mouseDir);
+            }
         }
     }
 

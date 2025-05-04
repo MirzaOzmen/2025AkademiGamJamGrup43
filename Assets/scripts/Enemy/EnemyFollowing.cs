@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.AI;
 using System.Collections;
 
-public class EnemyFollowing : MonoBehaviour
+public class EnemyFollowing : MonoBehaviour,knockback
 {
     [SerializeField] private GameObject PlayerTarget;
     [SerializeField] private NavMeshAgent agent;
@@ -12,6 +12,7 @@ public class EnemyFollowing : MonoBehaviour
     [SerializeField] private float dashSpeed = 0.001f;
     [SerializeField] private GameObject Prefab;
     [SerializeField] private Rigidbody2D rb;
+    [SerializeField] private EnemyHealth health;
     private bool canDashAttack = false;
     private Vector3 dashDirection;
     private bool newmeshbool = true;
@@ -146,6 +147,33 @@ public class EnemyFollowing : MonoBehaviour
 
         newmeshbool = true;
         agent.Stop(false);
+    }
+    public void ApplyKnockback(Vector2 sourcePosition, float knockbackForce)
+    {
+        Vector2 knockDir = (transform.position - (Vector3)sourcePosition).normalized;
+        Vector3 knockback = knockDir * knockbackForce;
+
+        StartCoroutine(KnockbackRoutine(knockback));
+    }
+
+    public IEnumerator KnockbackRoutine(Vector3 knockback)
+    {
+        if (health.health > 0)
+        {
+            agent.isStopped = true;
+
+            float knockTime = 0.1f; 
+            float elapsed = 0f;
+            while (elapsed < knockTime)
+            {
+                transform.position += knockback * Time.deltaTime;
+                elapsed += Time.deltaTime;
+                yield return null;
+            }
+
+            agent.isStopped = false;
+        }
+
     }
 }
 
