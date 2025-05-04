@@ -2,9 +2,9 @@ using UnityEngine;
 using UnityEngine.AI;
 using System.Collections;
 
-public class EnemyFollowing : MonoBehaviour
+public class EnemyFollowing : MonoBehaviour,knockback
 {
-    [SerializeField] private GameObject PlayerTarget;
+    private GameObject PlayerTarget;
     [SerializeField] private NavMeshAgent agent;
     [SerializeField] private float rayDistance = 10f;
     [SerializeField] private LayerMask playerLayer;
@@ -12,11 +12,13 @@ public class EnemyFollowing : MonoBehaviour
     [SerializeField] private float dashSpeed = 0.001f;
     [SerializeField] private GameObject Prefab;
     [SerializeField] private Rigidbody2D rb;
+    [SerializeField] private EnemyHealth health;
     private bool canDashAttack = false;
     private Vector3 dashDirection;
     private bool newmeshbool = true;
     void Start()
     {
+        PlayerTarget = GameObject.FindGameObjectWithTag("Player");
         agent.updateRotation = false;
         agent.updateUpAxis = false;
 
@@ -58,7 +60,7 @@ public class EnemyFollowing : MonoBehaviour
 
             if (hit.collider != null && hit.collider.CompareTag("Player"))
             {
-                Debug.Log("Raycast bir �eye �arpt�: " + hit.collider.name);
+                Debug.Log("Raycast bir seye carpti: " + hit.collider.name);
 
                 animator.SetBool("Walk", false);
                 animator.SetBool("Attack", true);
@@ -146,6 +148,33 @@ public class EnemyFollowing : MonoBehaviour
 
         newmeshbool = true;
         agent.Stop(false);
+    }
+    public void ApplyKnockback(Vector2 sourcePosition, float knockbackForce)
+    {
+        Vector2 knockDir = (transform.position - (Vector3)sourcePosition).normalized;
+        Vector3 knockback = knockDir * knockbackForce;
+
+        StartCoroutine(KnockbackRoutine(knockback));
+    }
+
+    public IEnumerator KnockbackRoutine(Vector3 knockback)
+    {
+        if (health.health > 0)
+        {
+            agent.isStopped = true;
+
+            float knockTime = 0.1f; 
+            float elapsed = 0f;
+            while (elapsed < knockTime)
+            {
+                transform.position += knockback * Time.deltaTime;
+                elapsed += Time.deltaTime;
+                yield return null;
+            }
+
+            agent.isStopped = false;
+        }
+
     }
 }
 

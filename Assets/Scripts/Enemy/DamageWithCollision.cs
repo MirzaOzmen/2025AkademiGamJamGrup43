@@ -7,7 +7,8 @@ public class DamageWithCollision : MonoBehaviour
     [SerializeField] private Teams team;
     private void OnCollisionEnter2D(Collision2D collision)
     {
-            if(collision.gameObject.TryGetComponent<Idamegeable>(out Idamegeable damageble))
+        Idamegeable damagebleparent = collision.transform.GetComponentInParent<Idamegeable>();
+        if (collision.gameObject.TryGetComponent<Idamegeable>(out Idamegeable damageble))
         {
             if (team != damageble.Team)
             {
@@ -27,6 +28,11 @@ public class DamageWithCollision : MonoBehaviour
 
 
             }
+        }
+        else if((damagebleparent != null && collision.gameObject.tag == "Player"))
+        {
+            Debug.Log("colidlandi");
+            damageble.ChangeHealthOfTheCharacter(-1 * damage);
         }
     }
 }
