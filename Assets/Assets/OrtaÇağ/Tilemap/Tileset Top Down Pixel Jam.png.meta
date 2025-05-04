@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1c57a29234fe52f438163c1a1255d2ec
+guid: 7d4aff3d2584033438fb9c016c5b968e
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -195,7 +195,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -1334,56 +1334,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Tileset Top Down Pixel Jam_0: -8095008193507948011
-      Tileset Top Down Pixel Jam_1: 7605006213185305047
-      Tileset Top Down Pixel Jam_10: 1742331949288244996
-      Tileset Top Down Pixel Jam_11: 6584947714621000067
-      Tileset Top Down Pixel Jam_12: 6153237001876540156
-      Tileset Top Down Pixel Jam_13: -781385250569806123
-      Tileset Top Down Pixel Jam_14: 4089268850877414002
-      Tileset Top Down Pixel Jam_15: -1414494969703670418
-      Tileset Top Down Pixel Jam_16: -1571321216283552475
-      Tileset Top Down Pixel Jam_17: -2581361714915990822
-      Tileset Top Down Pixel Jam_18: 2467977041356761891
-      Tileset Top Down Pixel Jam_19: -7609415041794220615
-      Tileset Top Down Pixel Jam_2: 7893023107451204319
-      Tileset Top Down Pixel Jam_20: -5430376279438497551
-      Tileset Top Down Pixel Jam_21: 5272908262132305649
-      Tileset Top Down Pixel Jam_22: -2793669815637312939
-      Tileset Top Down Pixel Jam_23: -9158375911342631415
-      Tileset Top Down Pixel Jam_24: -567080052898748813
-      Tileset Top Down Pixel Jam_25: 9037544096286847761
-      Tileset Top Down Pixel Jam_26: 5716499026488939037
-      Tileset Top Down Pixel Jam_27: -1471622719806909045
-      Tileset Top Down Pixel Jam_28: -2751713698340538570
-      Tileset Top Down Pixel Jam_29: 5220957061000565922
-      Tileset Top Down Pixel Jam_3: -4897089286827921166
-      Tileset Top Down Pixel Jam_30: -3559512345465834119
-      Tileset Top Down Pixel Jam_31: -2824903434915962339
-      Tileset Top Down Pixel Jam_32: -8169560492720184747
-      Tileset Top Down Pixel Jam_33: 2496952952137673885
-      Tileset Top Down Pixel Jam_34: -8760685946744067830
-      Tileset Top Down Pixel Jam_35: -3103005428749706102
-      Tileset Top Down Pixel Jam_36: -5779520397402840124
-      Tileset Top Down Pixel Jam_37: -554019783994631780
-      Tileset Top Down Pixel Jam_38: -3142939512200333493
-      Tileset Top Down Pixel Jam_39: -2585746401696895283
-      Tileset Top Down Pixel Jam_4: -2652149294479266843
-      Tileset Top Down Pixel Jam_40: 6617460189081377137
-      Tileset Top Down Pixel Jam_41: 2349285631592184614
-      Tileset Top Down Pixel Jam_42: -3411829336296018628
-      Tileset Top Down Pixel Jam_43: 9165802717979372764
-      Tileset Top Down Pixel Jam_44: 2983850998310783206
-      Tileset Top Down Pixel Jam_45: 4446140756190536328
-      Tileset Top Down Pixel Jam_46: 7692498837756736011
-      Tileset Top Down Pixel Jam_47: 7968716663095014210
-      Tileset Top Down Pixel Jam_48: -4592099747488702823
-      Tileset Top Down Pixel Jam_5: -6789599515644953773
-      Tileset Top Down Pixel Jam_6: 8477644799112223085
-      Tileset Top Down Pixel Jam_7: 986348821143562436
-      Tileset Top Down Pixel Jam_8: 2468131964907792838
-      Tileset Top Down Pixel Jam_9: 7875535598669742529
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

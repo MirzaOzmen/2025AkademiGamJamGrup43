@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7225d52679555b246a6d3ff70b733a08
+guid: 77525bded94e56340afa2b26f07a6026
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -123,7 +123,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -734,32 +734,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      objetos Tileset PixelJasombram_0: 6856692077279310396
-      objetos Tileset PixelJasombram_1: -1735290879394141609
-      objetos Tileset PixelJasombram_10: 2196124318000487281
-      objetos Tileset PixelJasombram_11: 9025526084641171082
-      objetos Tileset PixelJasombram_12: -6331841458589027096
-      objetos Tileset PixelJasombram_13: -5459177733221215348
-      objetos Tileset PixelJasombram_14: 5194506604272266413
-      objetos Tileset PixelJasombram_15: -5766759909573491566
-      objetos Tileset PixelJasombram_16: 8009064114290479951
-      objetos Tileset PixelJasombram_17: -6011782474980485732
-      objetos Tileset PixelJasombram_18: -685932138750225403
-      objetos Tileset PixelJasombram_19: 5343458038788570595
-      objetos Tileset PixelJasombram_2: 6903191354746482853
-      objetos Tileset PixelJasombram_20: 5064150795370646010
-      objetos Tileset PixelJasombram_21: 6573812458564119109
-      objetos Tileset PixelJasombram_22: 4428568547323771518
-      objetos Tileset PixelJasombram_23: 4893453137190328967
-      objetos Tileset PixelJasombram_24: 128725889188290760
-      objetos Tileset PixelJasombram_3: 4614465222297174678
-      objetos Tileset PixelJasombram_4: -6224454021756772538
-      objetos Tileset PixelJasombram_5: 6407048446548641266
-      objetos Tileset PixelJasombram_6: 6531691050901377492
-      objetos Tileset PixelJasombram_7: 373218990278804466
-      objetos Tileset PixelJasombram_8: -3118722997376174917
-      objetos Tileset PixelJasombram_9: -4033306629065434036
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

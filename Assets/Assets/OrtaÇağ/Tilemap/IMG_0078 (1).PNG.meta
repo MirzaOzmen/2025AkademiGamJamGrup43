@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2e577fbae48c16944be1c7cb98afa91d
+guid: 79c9c271fba1688429cc2881e20b2ab4
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -90,7 +90,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -459,21 +459,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      IMG_0078 (1)_0: 7937214068136249404
-      IMG_0078 (1)_1: -962446622158674000
-      IMG_0078 (1)_10: -8788802464451518830
-      IMG_0078 (1)_11: -930710024821073354
-      IMG_0078 (1)_12: 8710845715030736841
-      IMG_0078 (1)_13: 3547573129355692897
-      IMG_0078 (1)_2: 4772897184026573285
-      IMG_0078 (1)_3: -5451106639037240522
-      IMG_0078 (1)_4: 4675976797288107714
-      IMG_0078 (1)_5: -2120561275702107834
-      IMG_0078 (1)_6: -8191894800608032650
-      IMG_0078 (1)_7: 2132444096564744732
-      IMG_0078 (1)_8: 6562482542795353193
-      IMG_0078 (1)_9: 4341041524915544177
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

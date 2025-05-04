@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e15b57b477bd5ec47a1707ba8d2de6fb
+guid: 66af6b77b5674184d9a2a3be397a28f0
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -96,7 +96,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -509,23 +509,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      tileset casa e igreja_0: -91425907440397897
-      tileset casa e igreja_1: -4911197667879017265
-      tileset casa e igreja_10: -3817084362214363810
-      tileset casa e igreja_11: -7546003605807230706
-      tileset casa e igreja_12: 4841432151966007164
-      tileset casa e igreja_13: -5313856550999075907
-      tileset casa e igreja_14: 6224429507844287015
-      tileset casa e igreja_15: -2975366603016933334
-      tileset casa e igreja_2: 6561599850475807434
-      tileset casa e igreja_3: 6089599988650800598
-      tileset casa e igreja_4: 4483729699234114872
-      tileset casa e igreja_5: 3095912280143213414
-      tileset casa e igreja_6: 8501771562574766029
-      tileset casa e igreja_7: 4046090951778866027
-      tileset casa e igreja_8: -7308191922114728484
-      tileset casa e igreja_9: 7387142166986261144
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
