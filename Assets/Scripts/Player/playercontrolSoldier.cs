@@ -1,6 +1,6 @@
 using UnityEngine;
 using System.Collections;
-
+using UnityEngine.SceneManagement;
 public class playercontrolSoldier : MonoBehaviour
 {
 
@@ -160,5 +160,17 @@ public class playercontrolSoldier : MonoBehaviour
             yield return new WaitForSeconds(0.1f);
         }
         
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Portal")
+        {
+            StartCoroutine(sceneChange());
+        }
+    }
+    private IEnumerator sceneChange()
+    {
+        yield return new WaitForSeconds(2);
+        SceneManager.LoadScene(0);
     }
 }

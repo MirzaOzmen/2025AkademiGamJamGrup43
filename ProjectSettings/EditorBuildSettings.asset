@@ -9,6 +9,15 @@ EditorBuildSettings:
     path: Assets/Scenes/menu.unity
     guid: 096841eb00ac37144b242af21f8858b8
   - enabled: 1
+    path: Assets/Scenes/GameScenes/FirstAge.unity
+    guid: f79d60bb31fd8f34586607e40655a68d
+  - enabled: 1
+    path: Assets/Scenes/GameScenes/medivalage.unity
+    guid: 1e3ac66d5010d1845ab1ef538a559cc7
+  - enabled: 1
+    path: Assets/Scenes/GameScenes/modernAge.unity
+    guid: 20a3436513fd09a4384fb5b049605a99
+  - enabled: 1
     path: Assets/Scenes/mainPage.unity
     guid: a43cfb14e3041e6409142a62e7b35613
   m_configObjects:

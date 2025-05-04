@@ -203,7 +203,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 951bc06e5643ffc4380556cf471f037c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 300
+  health: 60
   team: 1
 --- !u!114 &8046604228366498145
 MonoBehaviour:
@@ -241,7 +241,7 @@ MonoBehaviour:
   animator: {fileID: 5798168381078244640}
   gun: {fileID: 2804221251138541734}
   Prefab: {fileID: 5526440803900727207}
-  attackDistance: 1.5
+  attackDistance: 1
   attackForwardDuration: 0.4
   attackReturnDuration: 0.3
   health: {fileID: 3922157523858625127}

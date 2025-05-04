@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class PlayControl : MonoBehaviour
 {
@@ -123,39 +124,50 @@ public class PlayControl : MonoBehaviour
         yield return new WaitForSeconds(dashCooldown - 0.1f);
         canDash = true;
     }
-
-  /*  private IEnumerator SpearAttack()
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        isAttacking = true;
-
-        Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        Vector2 dir = (mousePos - (Vector2)transform.position).normalized;
-
-        Vector3 originalPos = dir * 0.5f;
-        Vector3 attackPos = dir * attackDistance;
-
-        float elapsed = 0f;
-        while (elapsed < attackDuration)
+        if(collision.gameObject.tag=="Portal")
         {
-            float t = Mathf.SmoothStep(0, 1, elapsed / attackDuration);
-            gun.localPosition = Vector3.Lerp(originalPos, attackPos, t);
-            elapsed += Time.deltaTime;
-            yield return null;
+            StartCoroutine(sceneChange());
         }
+    }
+    private IEnumerator sceneChange()
+    {
+        yield return new WaitForSeconds(2);
+        SceneManager.LoadScene(2);
+    }
+    /*  private IEnumerator SpearAttack()
+      {
+          isAttacking = true;
 
-        gun.localPosition = attackPos;
+          Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+          Vector2 dir = (mousePos - (Vector2)transform.position).normalized;
 
-        elapsed = 0f;
-        while (elapsed < attackDuration)
-        {
-            float t = Mathf.SmoothStep(0, 1, elapsed / attackDuration);
-            gun.localPosition = Vector3.Lerp(attackPos, originalPos, t);
-            elapsed += Time.deltaTime;
-            yield return null;
-        }
+          Vector3 originalPos = dir * 0.5f;
+          Vector3 attackPos = dir * attackDistance;
 
-        gun.localPosition = originalPos;
-        isAttacking = false;
-    }*/
+          float elapsed = 0f;
+          while (elapsed < attackDuration)
+          {
+              float t = Mathf.SmoothStep(0, 1, elapsed / attackDuration);
+              gun.localPosition = Vector3.Lerp(originalPos, attackPos, t);
+              elapsed += Time.deltaTime;
+              yield return null;
+          }
+
+          gun.localPosition = attackPos;
+
+          elapsed = 0f;
+          while (elapsed < attackDuration)
+          {
+              float t = Mathf.SmoothStep(0, 1, elapsed / attackDuration);
+              gun.localPosition = Vector3.Lerp(attackPos, originalPos, t);
+              elapsed += Time.deltaTime;
+              yield return null;
+          }
+
+          gun.localPosition = originalPos;
+          isAttacking = false;
+      }*/
 
 }

@@ -17,12 +17,13 @@ public class EnemyFollowingKnight : MonoBehaviour, knockback
     [SerializeField] private float attackReturnDuration = 0.3f;  // Geri dönerken süre
     [SerializeField] private EnemyHealth health;
     [SerializeField] private float degree;
-
+   
     private bool isAttacking = false;
     private bool navmeshEnabled = true;
 
     void Start()
     {
+        
         PlayerTarget = GameObject.FindGameObjectWithTag("Player");
         agent.updateRotation = false;
         agent.updateUpAxis = false;

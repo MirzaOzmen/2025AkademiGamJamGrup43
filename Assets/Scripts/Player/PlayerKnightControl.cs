@@ -1,6 +1,6 @@
 using UnityEngine;
 using System.Collections;
-
+using UnityEngine.SceneManagement;
 public class PlayerKnightControl : MonoBehaviour
 {
     public float moveSpeed = 5f;
@@ -142,5 +142,17 @@ public class PlayerKnightControl : MonoBehaviour
 
         gun.localPosition = originalPos;
         isAttacking = false;
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Portal")
+        {
+            StartCoroutine(sceneChange());
+        }
+    }
+    private IEnumerator sceneChange()
+    {
+        yield return new WaitForSeconds(2);
+        SceneManager.LoadScene(3);
     }
 }
