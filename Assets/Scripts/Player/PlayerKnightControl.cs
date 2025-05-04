@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
-public class PlayControl : MonoBehaviour
+public class PlayerKnightControl : MonoBehaviour
 {
     public float moveSpeed = 5f;
     public float runSpeed = 8f;
@@ -13,7 +13,6 @@ public class PlayControl : MonoBehaviour
     private bool canDash = true;
     private bool isDashing = false;
 
-    
     [SerializeField] private Transform gun;
     [SerializeField] private Animator anim;
 
@@ -23,15 +22,13 @@ public class PlayControl : MonoBehaviour
     [SerializeField] private GameObject bullet;
 
     [SerializeField] private float attackPeriod;
-    
+
     [SerializeField] private Transform firingPoint;
-    [SerializeField] private float x;
-    [SerializeField] private float y;
-    [SerializeField] private float z;
     private float timer = 0;
+
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>(); // caching
+        rb = GetComponent<Rigidbody2D>();
     }
 
     void Update()
@@ -39,68 +36,43 @@ public class PlayControl : MonoBehaviour
         if (isDashing) return;
 
         moveInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized;
-        if (Input.GetKeyDown(KeyCode.Space) && canDash && moveInput != Vector2.zero)
+        anim.SetBool("walk", moveInput != Vector2.zero);
+
+        // Mouse konumuna bak
+        Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        Vector2 lookDir = mousePos - (Vector2)transform.position;
+        float angleZ = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg;
+
+        // Karakteri mouse yönüne çevir (scale ile)
+        if (mousePos.x > transform.position.x)
         {
-            StartCoroutine(Dash());
-        }
-        if (moveInput.x == 0 && moveInput.y ==0)
-        {
-            anim.SetBool("walk", false);
+            transform.localScale = new Vector3(1, 1, 1);
         }
         else
         {
-            anim.SetBool("walk", true);
+            transform.localScale = new Vector3(-1, 1, 1);
         }
+
         
-        Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        Vector2 lookDir = mousePos - (Vector2)transform.position;
-
-       
-        float angleZ = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg;
-        gun.rotation = Quaternion.Euler(0f, 0f, angleZ-125f);
-
-        if (!isAttacking)
+        if (transform.localScale.x > 0)
         {
-            gun.localPosition = lookDir.normalized * 0.5f;
+            gun.rotation = Quaternion.Euler(0f, 0f, angleZ - 125f);
+            if (!isAttacking)
+                gun.localPosition = lookDir.normalized * 0.5f;
+        }
+        else
+        {
+            
+            gun.rotation = Quaternion.Euler(0f, 0f, angleZ + 125f);
+            if (!isAttacking)
+                gun.localPosition = new Vector3(-lookDir.normalized.x, lookDir.normalized.y, 0) * 0.5f;
         }
 
        
         if (Input.GetMouseButtonDown(0) && !isAttacking)
         {
-           // StartCoroutine(SpearAttack());
+            StartCoroutine(SpearAttack());
         }
-        if (mousePos.x > transform.position.x)
-        {
-
-
-           transform.localScale = Vector3.one;
-           
-            firingPoint.localScale = new Vector3(1, 1, 1);
-            firingPoint.localRotation = Quaternion.Euler(0, 0, -90);
-        
-        }
-        else
-        {
-            transform.localScale = new Vector3(-1, 1, 1);
-          
-            firingPoint.localScale = new Vector3(1, -1, 1);
-            firingPoint.localRotation = Quaternion.Euler(0, 0, 90);
-         
-
-        }
-        if(Input.GetMouseButtonDown(0))
-        {
-            timer += Time.deltaTime;
-            if (timer > attackPeriod)
-            {
-                timer = 0;
-                Vector2 mouseDir = (Camera.main.ScreenToWorldPoint(Input.mousePosition) - firingPoint.position).normalized;
-
-                GameObject newBullet = Instantiate(bullet, firingPoint.position, Quaternion.identity);
-                newBullet.GetComponent<PlayerBullet>().SetDirection(mouseDir);
-            }
-        }
-       
     }
 
     void FixedUpdate()
@@ -126,12 +98,18 @@ public class PlayControl : MonoBehaviour
         canDash = true;
     }
 
-  /*  private IEnumerator SpearAttack()
+    private IEnumerator SpearAttack()
     {
         isAttacking = true;
 
         Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         Vector2 dir = (mousePos - (Vector2)transform.position).normalized;
+
+        // Aynalama
+        if (transform.localScale.x < 0)
+        {
+            dir.x *= -1;
+        }
 
         Vector3 originalPos = dir * 0.5f;
         Vector3 attackPos = dir * attackDistance;
@@ -158,6 +136,5 @@ public class PlayControl : MonoBehaviour
 
         gun.localPosition = originalPos;
         isAttacking = false;
-    }*/
-
+    }
 }
