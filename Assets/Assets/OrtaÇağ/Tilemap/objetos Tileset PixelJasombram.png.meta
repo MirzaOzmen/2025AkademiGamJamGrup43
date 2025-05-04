@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: 7225d52679555b246a6d3ff70b733a08
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6856692077279310396
+    second: objetos Tileset PixelJasombram_0
+  - first:
+      213: -1735290879394141609
+    second: objetos Tileset PixelJasombram_1
+  - first:
+      213: 6903191354746482853
+    second: objetos Tileset PixelJasombram_2
+  - first:
+      213: 4614465222297174678
+    second: objetos Tileset PixelJasombram_3
+  - first:
+      213: -6224454021756772538
+    second: objetos Tileset PixelJasombram_4
+  - first:
+      213: 6407048446548641266
+    second: objetos Tileset PixelJasombram_5
+  - first:
+      213: 6531691050901377492
+    second: objetos Tileset PixelJasombram_6
+  - first:
+      213: 373218990278804466
+    second: objetos Tileset PixelJasombram_7
+  - first:
+      213: -3118722997376174917
+    second: objetos Tileset PixelJasombram_8
+  - first:
+      213: -4033306629065434036
+    second: objetos Tileset PixelJasombram_9
+  - first:
+      213: 2196124318000487281
+    second: objetos Tileset PixelJasombram_10
+  - first:
+      213: 9025526084641171082
+    second: objetos Tileset PixelJasombram_11
+  - first:
+      213: -6331841458589027096
+    second: objetos Tileset PixelJasombram_12
+  - first:
+      213: -5459177733221215348
+    second: objetos Tileset PixelJasombram_13
+  - first:
+      213: 5194506604272266413
+    second: objetos Tileset PixelJasombram_14
+  - first:
+      213: -5766759909573491566
+    second: objetos Tileset PixelJasombram_15
+  - first:
+      213: 8009064114290479951
+    second: objetos Tileset PixelJasombram_16
+  - first:
+      213: -6011782474980485732
+    second: objetos Tileset PixelJasombram_17
+  - first:
+      213: -685932138750225403
+    second: objetos Tileset PixelJasombram_18
+  - first:
+      213: 5343458038788570595
+    second: objetos Tileset PixelJasombram_19
+  - first:
+      213: 5064150795370646010
+    second: objetos Tileset PixelJasombram_20
+  - first:
+      213: 6573812458564119109
+    second: objetos Tileset PixelJasombram_21
+  - first:
+      213: 4428568547323771518
+    second: objetos Tileset PixelJasombram_22
+  - first:
+      213: 4893453137190328967
+    second: objetos Tileset PixelJasombram_23
+  - first:
+      213: 128725889188290760
+    second: objetos Tileset PixelJasombram_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: objetos Tileset PixelJasombram_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 207
+        width: 78
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c32f770bd1dd72f50800000000000000
+      internalID: 6856692077279310396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objetos Tileset PixelJasombram_1
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 159
+        width: 163
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75aacbf93220be7e0800000000000000
+      internalID: -1735290879394141609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objetos Tileset PixelJasombram_2
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 191
+        width: 159
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a0363466ff0dcf50800000000000000
+      internalID: 6903191354746482853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objetos Tileset PixelJasombram_3
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 159
+        width: 88
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 692ca63dbafd90040800000000000000
+      internalID: 4614465222297174678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objetos Tileset PixelJasombram_4
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 79
+        width: 116
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64f9f68bb0c4e99a0800000000000000
+      internalID: -6224454021756772538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objetos Tileset PixelJasombram_5
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 127
+        width: 36
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f5004bbd986ae850800000000000000
+      internalID: 6407048446548641266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objetos Tileset PixelJasombram_6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 143
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d11397876a35aa50800000000000000
+      internalID: 6531691050901377492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objetos Tileset PixelJasombram_7
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 99
+        width: 36
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f38ffab1b0fd2500800000000000000
+      internalID: 373218990278804466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objetos Tileset PixelJasombram_8
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 95
+        width: 50
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb43d8425f118b4d0800000000000000
+      internalID: -3118722997376174917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objetos Tileset PixelJasombram_9
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 47
+        width: 78
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4c93508df0d608c0800000000000000
+      internalID: -4033306629065434036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objetos Tileset PixelJasombram_10
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 130
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17b14018e633a7e10800000000000000
+      internalID: 2196124318000487281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objetos Tileset PixelJasombram_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 79
+        width: 49
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a862f0a972c114d70800000000000000
+      internalID: 9025526084641171082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objetos Tileset PixelJasombram_12
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 80
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e4b5beadb7c028a0800000000000000
+      internalID: -6331841458589027096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objetos Tileset PixelJasombram_13
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 31
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8390ad86ca1d34b0800000000000000
+      internalID: -5459177733221215348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objetos Tileset PixelJasombram_14
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 31
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daca1132c38961840800000000000000
+      internalID: 5194506604272266413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objetos Tileset PixelJasombram_15
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 31
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29488e47a6a58ffa0800000000000000
+      internalID: -5766759909573491566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objetos Tileset PixelJasombram_16
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 31
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f43dc9bc069e52f60800000000000000
+      internalID: 8009064114290479951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objetos Tileset PixelJasombram_17
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 79
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c959ed7d0bbd19ca0800000000000000
+      internalID: -6011782474980485732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objetos Tileset PixelJasombram_18
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 68
+        width: 11
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 504d4c1aa541b76f0800000000000000
+      internalID: -685932138750225403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objetos Tileset PixelJasombram_19
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 36
+        width: 42
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3edb23286c6c72a40800000000000000
+      internalID: 5343458038788570595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objetos Tileset PixelJasombram_20
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 33
+        width: 12
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af9441f315a774640800000000000000
+      internalID: 5064150795370646010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objetos Tileset PixelJasombram_21
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 33
+        width: 20
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54a60ccf99fda3b50800000000000000
+      internalID: 6573812458564119109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objetos Tileset PixelJasombram_22
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 31
+        width: 13
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7a73b651af657d30800000000000000
+      internalID: 4428568547323771518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objetos Tileset PixelJasombram_23
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 31
+        width: 20
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78a104f93b909e340800000000000000
+      internalID: 4893453137190328967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objetos Tileset PixelJasombram_24
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 36
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c0e672a38359c100800000000000000
+      internalID: 128725889188290760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      objetos Tileset PixelJasombram_0: 6856692077279310396
+      objetos Tileset PixelJasombram_1: -1735290879394141609
+      objetos Tileset PixelJasombram_10: 2196124318000487281
+      objetos Tileset PixelJasombram_11: 9025526084641171082
+      objetos Tileset PixelJasombram_12: -6331841458589027096
+      objetos Tileset PixelJasombram_13: -5459177733221215348
+      objetos Tileset PixelJasombram_14: 5194506604272266413
+      objetos Tileset PixelJasombram_15: -5766759909573491566
+      objetos Tileset PixelJasombram_16: 8009064114290479951
+      objetos Tileset PixelJasombram_17: -6011782474980485732
+      objetos Tileset PixelJasombram_18: -685932138750225403
+      objetos Tileset PixelJasombram_19: 5343458038788570595
+      objetos Tileset PixelJasombram_2: 6903191354746482853
+      objetos Tileset PixelJasombram_20: 5064150795370646010
+      objetos Tileset PixelJasombram_21: 6573812458564119109
+      objetos Tileset PixelJasombram_22: 4428568547323771518
+      objetos Tileset PixelJasombram_23: 4893453137190328967
+      objetos Tileset PixelJasombram_24: 128725889188290760
+      objetos Tileset PixelJasombram_3: 4614465222297174678
+      objetos Tileset PixelJasombram_4: -6224454021756772538
+      objetos Tileset PixelJasombram_5: 6407048446548641266
+      objetos Tileset PixelJasombram_6: 6531691050901377492
+      objetos Tileset PixelJasombram_7: 373218990278804466
+      objetos Tileset PixelJasombram_8: -3118722997376174917
+      objetos Tileset PixelJasombram_9: -4033306629065434036
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
