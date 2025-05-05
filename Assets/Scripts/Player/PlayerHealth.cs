@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 
 public class PlayerHealth : MonoBehaviour , Idamegeable
@@ -33,7 +34,7 @@ public class PlayerHealth : MonoBehaviour , Idamegeable
         {
             Health = 0;
             Slider.value = Health;
-            //  Destroy(gameObject);
+            SceneManager.LoadScene(0);
         }
     }
 }
