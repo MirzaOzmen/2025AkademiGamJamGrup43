@@ -7,7 +7,7 @@ public class PlayerKnightControl : MonoBehaviour
     public float runSpeed = 8f;
     public float dashForce = 20f;
     public float dashCooldown = 1f;
-
+    public AudioSource audioSource;
     private Rigidbody2D rb;
     private Vector2 moveInput;
     private bool canDash = true;
@@ -20,7 +20,7 @@ public class PlayerKnightControl : MonoBehaviour
     [SerializeField] private float attackDuration = 0.01f;
     [SerializeField] private float attackDistance = 1.2f;
     [SerializeField] private GameObject bullet;
-
+    [SerializeField] private GameObject changescene;
     [SerializeField] private float attackPeriod;
 
     [SerializeField] private Transform firingPoint;
@@ -77,6 +77,7 @@ public class PlayerKnightControl : MonoBehaviour
        
         if (Input.GetMouseButtonDown(0) && !isAttacking)
         {
+            audioSource.Play();
             StartCoroutine(SpearAttack());
         }
     }
@@ -152,6 +153,7 @@ public class PlayerKnightControl : MonoBehaviour
     }
     private IEnumerator sceneChange()
     {
+        changescene.SetActive(true);
         yield return new WaitForSeconds(2);
         SceneManager.LoadScene(3);
     }

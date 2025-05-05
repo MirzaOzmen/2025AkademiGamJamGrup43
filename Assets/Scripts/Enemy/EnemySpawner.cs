@@ -20,7 +20,7 @@ public class EnemySpawner : MonoBehaviour
     
     void Update()
     {
-        if(characterdiedrate<=0 && canSpawn)
+        if(characterdiedrate<0 && canSpawn)
         {
             canSpawn = false;
             Instantiate(portal, transform.position, Quaternion.identity);

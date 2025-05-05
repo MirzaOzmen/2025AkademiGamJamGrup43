@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class PlayControl : MonoBehaviour
 {
@@ -8,7 +9,7 @@ public class PlayControl : MonoBehaviour
     public float runSpeed = 8f;
     public float dashForce = 20f;
     public float dashCooldown = 1f;
-
+    public AudioSource audioSource;
     private Rigidbody2D rb;
     private Vector2 moveInput;
     private bool canDash = true;
@@ -22,7 +23,7 @@ public class PlayControl : MonoBehaviour
     [SerializeField] private float attackDuration = 0.01f;
     [SerializeField] private float attackDistance = 1.2f;
     [SerializeField] private GameObject bullet;
-
+    [SerializeField] private GameObject changescene;
     [SerializeField] private float attackPeriod;
     
     [SerializeField] private Transform firingPoint;
@@ -94,7 +95,7 @@ public class PlayControl : MonoBehaviour
             {
                 timer = 0;
                 Vector2 mouseDir = (Camera.main.ScreenToWorldPoint(Input.mousePosition) - firingPoint.position).normalized;
-
+                audioSource.Play();
                 GameObject newBullet = Instantiate(bullet, firingPoint.position, Quaternion.identity);
                 newBullet.GetComponent<PlayerBullet>().SetDirection(mouseDir);
             }
@@ -129,10 +130,12 @@ public class PlayControl : MonoBehaviour
         if(collision.gameObject.tag=="Portal")
         {
             StartCoroutine(sceneChange());
+            
         }
     }
     private IEnumerator sceneChange()
     {
+        changescene.SetActive(true);
         yield return new WaitForSeconds(2);
         SceneManager.LoadScene(2);
     }

@@ -8,7 +8,8 @@ public class playercontrolSoldier : MonoBehaviour
     public float runSpeed = 8f;
     public float dashForce = 20f;
     public float dashCooldown = 1f;
-
+    [SerializeField] private GameObject changescene;
+    public AudioSource audioSource;
     private Rigidbody2D rb;
     private Vector2 moveInput;
     private bool canDash = true;
@@ -117,13 +118,14 @@ public class playercontrolSoldier : MonoBehaviour
             if (timer >= attackPeriod)
             {
                 timer = 0f;
+                audioSource.Play();
                 StartCoroutine(spawnbullet());
             }
         }
         else
         {
-            // buton býrakýlýrsa zamanlayýcýyý sýfýrla (isteðe baðlý)
-            timer = attackPeriod; // istersen burada 0f da yapabilirsin
+            
+            timer = attackPeriod;
         }
 
     }
@@ -170,6 +172,7 @@ public class playercontrolSoldier : MonoBehaviour
     }
     private IEnumerator sceneChange()
     {
+        changescene.SetActive(true);
         yield return new WaitForSeconds(2);
         SceneManager.LoadScene(0);
     }
