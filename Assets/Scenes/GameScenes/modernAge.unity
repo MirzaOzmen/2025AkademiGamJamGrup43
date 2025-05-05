@@ -4872,7 +4872,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &447683868
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12270,7 +12270,7 @@ PrefabInstance:
       objectReference: {fileID: 1058955415}
     - target: {fileID: 8103137652495142682, guid: 92cecaa072b0a8d41ac3c83fd86b3c95, type: 3}
       propertyPath: spawnnumber
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8103137652495142682, guid: 92cecaa072b0a8d41ac3c83fd86b3c95, type: 3}
       propertyPath: enemyprefeab
